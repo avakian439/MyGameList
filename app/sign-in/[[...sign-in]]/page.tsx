@@ -7,7 +7,7 @@ export default function SignInPage() {
         <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white flex">
             <div className="hidden lg:flex lg:w-2/5 bg-gradient-to-b from-purple-900/20 to-blue-900/20 p-12 flex-col justify-between border-r border-gray-800">
                 <div>
-                    <Link href="/" className="flex items-center space-x-3 group">
+                    <Link href="/" className="flex items-center space-x-4 group">
                         <div className="p-3 bg-gradient-to-br from-purple-600 to-blue-600 rounded-xl group-hover:scale-110 transition-transform ">
                             <Gamepad2 size={28} />
                         </div>
@@ -133,6 +133,7 @@ export default function SignInPage() {
                                     ←  Back to Home
                                 </Link>
                             </div>
+
                         </div>
                     </div>
 
