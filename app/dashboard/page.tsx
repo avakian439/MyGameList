@@ -37,6 +37,25 @@ export default async function DashboardPage() {
     const genreStats = calculateGenreStats(userGameDetails);
     const genreStatsByScore = calculateGenreStatsByScore(userGameDetails, userGames);
 
+    // Get stats from user data
+    const totalGames = userData.stats?.totalGames || 0;
+    const playingCount = userData.stats?.playing || 0;
+    const completedCount = userData.stats?.completed || 0;
+    
+    // Calculate average rating from all reviews
+    const allReviews = userGames.flatMap(g => g.reviews || []);
+    const reviewScores = allReviews
+        .map(r => r.reviewScore)
+        .filter((score): score is number => score !== undefined && score !== null);
+    const avgRating = reviewScores.length > 0 
+        ? (reviewScores.reduce((sum, score) => sum + score, 0) / reviewScores.length).toFixed(1)
+        : '-';
+    
+    // Calculate completion rate (completed / total)
+    const completionRate = totalGames > 0
+        ? Math.round((completedCount / totalGames) * 100)
+        : 0;
+
 
     return (
         <div className="min-h-screen bg-linear-to-b from-gray-900 to-black text-white">
@@ -68,26 +87,26 @@ export default async function DashboardPage() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 md:auto-rows-fr">
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Total Games</h3>
-                            <p className="text-3xl font-bold">0</p>
-                            <p className="text-gray-400 text-sm mt-2">Start adding games!</p>
+                            <p className="text-3xl font-bold">{totalGames}</p>
+                            <p className="text-gray-400 text-sm mt-2">{totalGames === 0 ? 'Start adding games!' : 'In your library'}</p>
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Currently Playing</h3>
-                            <p className="text-3xl font-bold">0</p>
-                            <p className="text-gray-400 text-sm mt-2">What are you playing?</p>
+                            <p className="text-3xl font-bold">{playingCount}</p>
+                            <p className="text-gray-400 text-sm mt-2">{playingCount === 0 ? 'What are you playing?' : 'Active games'}</p>
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700 md:row-span-2 flex flex-col">
                             <GenreTrackerWrapper countStats={genreStats} scoreStats={genreStatsByScore} />
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Avg. Rating</h3>
-                            <p className="text-3xl font-bold">-</p>
-                            <p className="text-gray-400 text-sm mt-2">Rate your games</p>
+                            <p className="text-3xl font-bold">{avgRating}</p>
+                            <p className="text-gray-400 text-sm mt-2">{avgRating === '-' ? 'Rate your games' : 'Your average score'}</p>
                         </div>                        
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
-                            <h3 className="text-gray-400 text-sm mb-2">Completion rate:</h3>
-                            <p className="text-3xl font-bold">-</p>
-                            <p className="text-gray-400 text-sm mt-2">Finish your games</p>
+                            <h3 className="text-gray-400 text-sm mb-2">Completion Rate</h3>
+                            <p className="text-3xl font-bold">{completionRate}%</p>
+                            <p className="text-gray-400 text-sm mt-2">{completedCount} of {totalGames} completed</p>
                         </div>
                     </div>
 
