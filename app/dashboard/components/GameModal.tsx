@@ -1,8 +1,8 @@
 "use client";
-import { useEffect } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { createPortal } from 'react-dom';
 import Image from 'next/image';
-import { X } from 'lucide-react';
+import { X, ChevronDown } from 'lucide-react';
 import { Game, UserGameData } from '@/lib/types';
 
 interface GameModalProps {
@@ -10,13 +10,47 @@ interface GameModalProps {
     userGameData?: UserGameData;
     isOpen: boolean;
     onClose: () => void;
+    onStatusChange?: () => void;
 }
 
-export default function GameModal({ game, userGameData, isOpen, onClose }: GameModalProps) {
+export default function GameModal({ game, userGameData, isOpen, onClose, onStatusChange }: GameModalProps) {
+    const [isStatusDropdownOpen, setIsStatusDropdownOpen] = useState(false);
+    const [isUpdatingStatus, setIsUpdatingStatus] = useState(false);
+    const [currentStatusValue, setCurrentStatusValue] = useState(userGameData?.status);
+    const dropdownRef = useRef<HTMLDivElement>(null);
+
+    // Update local status when userGameData changes
+    useEffect(() => {
+        setCurrentStatusValue(userGameData?.status);
+    }, [userGameData?.status]);
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+                setIsStatusDropdownOpen(false);
+            }
+        };
+
+        if (isStatusDropdownOpen) {
+            document.addEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [isStatusDropdownOpen]);
+
     // Close modal on ESC key
     useEffect(() => {
         const handleEsc = (e: KeyboardEvent) => {
-            if (e.key === 'Escape') onClose();
+            if (e.key === 'Escape') {
+                if (isStatusDropdownOpen) {
+                    setIsStatusDropdownOpen(false);
+                } else {
+                    onClose();
+                }
+            }
         };
         if (isOpen) {
             window.addEventListener('keydown', handleEsc);
@@ -26,9 +60,54 @@ export default function GameModal({ game, userGameData, isOpen, onClose }: GameM
             window.removeEventListener('keydown', handleEsc);
             document.body.style.overflow = 'unset';
         };
-    }, [isOpen, onClose]);
+    }, [isOpen, onClose, isStatusDropdownOpen]);
 
     if (!isOpen) return null;
+
+    const handleStatusChange = async (newStatus: "playing" | "completed" | "wishlist") => {
+        if (!userGameData || newStatus === currentStatusValue) {
+            setIsStatusDropdownOpen(false);
+            return;
+        }
+
+        setIsUpdatingStatus(true);
+        try {
+            const response = await fetch('/api/user/games', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    gameId: String(game.id),
+                    status: newStatus,
+                    reviews: userGameData.reviews,
+                    ...(newStatus === 'completed' && { completedAt: new Date().toISOString() })
+                }),
+            });
+
+            if (!response.ok) throw new Error('Failed to update status');
+
+            // Update local state immediately for visual feedback
+            setCurrentStatusValue(newStatus);
+
+            // Call the refresh callback if provided
+            if (onStatusChange) {
+                onStatusChange();
+            }
+        } catch (error) {
+            console.error('Error updating status:', error);
+            alert('Failed to update status. Please try again.');
+        } finally {
+            setIsUpdatingStatus(false);
+            setIsStatusDropdownOpen(false);
+        }
+    };
+
+    const statusOptions: Array<{ value: "playing" | "completed" | "wishlist"; label: string; color: string }> = [
+        { value: "playing", label: "Playing", color: "bg-blue-600" },
+        { value: "completed", label: "Completed", color: "bg-green-600" },
+        { value: "wishlist", label: "Wishlist", color: "bg-purple-600" },
+    ];
+
+    const currentStatus = statusOptions.find(opt => opt.value === currentStatusValue) || statusOptions[0];
 
     const latestReview = userGameData?.reviews?.[userGameData.reviews.length - 1];
     const genres = game.genres?.map(g => g.name).join(', ') || 'N/A';
@@ -69,12 +148,12 @@ export default function GameModal({ game, userGameData, isOpen, onClose }: GameM
                             {game.released && (
                                 <span>{new Date(game.released).getFullYear()}</span>
                             )}
-                            {game.metacritic && (
+                            {game.metacritic !== undefined && game.metacritic !== null && game.metacritic !== 0 && (
                                 <span className="px-2 py-1 bg-yellow-500/20 border border-yellow-500/50 rounded text-yellow-400">
                                     Metacritic: {game.metacritic}
                                 </span>
                             )}
-                            {game.rating && (
+                            {game.rating !== undefined && game.rating !== null && game.rating !== 0 && (
                                 <span className="px-2 py-1 bg-blue-500/20 border border-blue-500/50 rounded text-blue-400">
                                     Rating: {game.rating}/5
                                 </span>
@@ -90,11 +169,36 @@ export default function GameModal({ game, userGameData, isOpen, onClose }: GameM
                         <div className="flex items-center gap-4 pb-4 border-b border-gray-700">
                             <div className="flex items-center gap-2">
                                 <span className="text-gray-400">Status:</span>
-                                <span className="px-3 py-1 bg-blue-600 text-white rounded text-sm font-medium capitalize">
-                                    {userGameData.status}
-                                </span>
+                                <div className="relative" ref={dropdownRef}>
+                                    <button
+                                        onClick={() => setIsStatusDropdownOpen(!isStatusDropdownOpen)}
+                                        disabled={isUpdatingStatus}
+                                        className={`px-3 py-1 ${currentStatus.color} text-white rounded text-sm font-medium capitalize flex items-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed`}
+                                    >
+                                        {isUpdatingStatus ? 'Updating...' : currentStatus.label}
+                                        <ChevronDown className="w-4 h-4" />
+                                    </button>
+                                    
+                                    {/* Status Dropdown */}
+                                    {isStatusDropdownOpen && (
+                                        <div className="absolute top-full left-0 mt-1 bg-gray-800 border border-gray-700 rounded shadow-lg z-10 min-w-[120px]">
+                                            {statusOptions.map((option) => (
+                                                <button
+                                                    key={option.value}
+                                                    onClick={() => handleStatusChange(option.value)}
+                                                    className={`w-full text-left px-3 py-2 text-sm hover:bg-gray-700 transition-colors capitalize ${
+                                                        option.value === currentStatusValue ? 'text-white font-medium' : 'text-gray-300'
+                                                    }`}
+                                                >
+                                                    <span className={`inline-block w-3 h-3 rounded-full mr-2 ${option.color}`} />
+                                                    {option.label}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
                             </div>
-                            {latestReview?.reviewScore && (
+                            {latestReview?.reviewScore !== undefined && latestReview?.reviewScore !== null && (
                                 <div className="flex items-center gap-2">
                                     <span className="text-gray-400">Your Score:</span>
                                     <span className="px-3 py-1 bg-green-600 text-white rounded text-sm font-medium">
