@@ -15,6 +15,7 @@ interface Props {
   score?: number;
   show_status?: boolean;
   status?: status;
+  onClick?: () => void;
 }
 
 /**
@@ -66,7 +67,7 @@ function truncateHtml(html?: string, maxLength: number = 150): string {
   return html.substring(0, maxLength).trim() + '...';
 }
 
-export default function GameCard({ gameName, description, image, genres, platforms, show_score = false, score, show_status = false, status = 'completed', viewMode = 'cards' }: Props) {
+export default function GameCard({ gameName, description, image, genres, platforms, show_score = false, score, show_status = false, status = 'completed', viewMode = 'cards', onClick }: Props) {
   const formattedGenres = formatGenres(genres);
   const formattedPlatforms = formatPlatforms(platforms);
   const truncatedDescription = truncateHtml(description);
@@ -100,7 +101,13 @@ export default function GameCard({ gameName, description, image, genres, platfor
   // Details view: horizontal full-width row
   if (viewMode === 'details') {
     return (
-      <div className="w-full rounded-lg overflow-hidden bg-gray-800 p-3 flex items-center gap-4 border border-gray-700 relative z-0">
+      <div 
+        className="w-full rounded-lg overflow-hidden bg-gray-800 p-3 flex items-center gap-4 border border-gray-700 relative z-0 hover:bg-gray-750 transition-colors cursor-pointer"
+        onClick={onClick}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => e.key === 'Enter' && onClick?.()}
+      >
         <div className="shrink-0 w-28 h-20 relative rounded overflow-hidden">
           <Image src={image} alt={gameName} className="object-cover w-full h-full" width={128} height={96} />
         </div>
@@ -135,7 +142,13 @@ export default function GameCard({ gameName, description, image, genres, platfor
   // Tiles view: compact square card
   if (viewMode === 'tiles') {
     return (
-      <div className="w-36 rounded-lg overflow-hidden bg-gray-800 shadow group hover:scale-105 transform transition border border-gray-700 relative z-0 hover:z-10">
+      <div 
+        className="w-36 rounded-lg overflow-hidden bg-gray-800 shadow group hover:scale-105 transform transition border border-gray-700 relative z-0 hover:z-10 cursor-pointer"
+        onClick={onClick}
+        role="button"
+        tabIndex={0}
+        onKeyDown={(e) => e.key === 'Enter' && onClick?.()}
+      >
         <div className="relative">
           {show_score && (
             <div className="absolute top-2 left-2 z-10">
@@ -163,7 +176,13 @@ export default function GameCard({ gameName, description, image, genres, platfor
 
   // Default: cards (original)
   return (
-    <div className="w-full sm:w-64 rounded-lg overflow-hidden bg-gray-800 shadow-lg group hover:scale-105 transform transition relative z-0 hover:z-10">
+    <div 
+      className="w-64 rounded-lg overflow-hidden bg-gray-800 shadow-lg group hover:scale-105 transform transition relative z-0 hover:z-10 cursor-pointer"
+      onClick={onClick}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => e.key === 'Enter' && onClick?.()}
+    >
       <div className="relative">
         {show_score && (
           <div className="absolute top-2 left-2 z-10">

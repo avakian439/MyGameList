@@ -41,9 +41,9 @@ export async function getTopRatedGames(page=1):Promise<ApiResponse>{
     return response.json();
 }
 
-export async function getGameDetails(id:number):Promise<Game>{
+export async function getGameDetails(idOrSlug: number | string): Promise<Game> {
     const response = await fetch(
-        `${BASE_URL}/games/${id}?key=${RAWG_API_KEY}`
+        `${BASE_URL}/games/${idOrSlug}?key=${RAWG_API_KEY}`
     );
     if(!response.ok){
         throw new Error('Failed to fetch game');

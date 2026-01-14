@@ -8,23 +8,28 @@ import { getGameDetails } from "../../../lib/rawg-api";
 export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const gameId = searchParams.get("id");
+    const gameSlug = searchParams.get("slug");
+    
+    const identifier = gameId || gameSlug;
 
-    if (gameId) {
-        // First, check if game exists locally
-        const localGame = (games as Record<string, Game>)[gameId];
+    if (identifier) {
+        // First, check if game exists locally (by ID)
+        const localGame = (games as Record<string, Game>)[identifier];
         if (localGame) {
             return NextResponse.json(localGame);
         }
         
-        // If not found locally, fetch from RAWG API
+        // If not found locally, fetch from RAWG API (works with both ID and slug)
         try {
-            const gameFromApi = await getGameDetails(Number(gameId));
+            // Check if identifier is numeric, otherwise treat as slug
+            const isNumeric = /^\d+$/.test(identifier);
+            const gameFromApi = await getGameDetails(isNumeric ? Number(identifier) : identifier);
             
-            // Optionally save to local storage for future use
+            // Optionally save to local storage for future use (using game ID as key)
             const gamesPath = path.join(process.cwd(), "app/dashboard/data/games.json");
             const fileContent = await fs.readFile(gamesPath, "utf-8");
             const currentGames = JSON.parse(fileContent) as Record<string, Game>;
-            currentGames[gameId] = gameFromApi;
+            currentGames[String(gameFromApi.id)] = gameFromApi;
             await fs.writeFile(gamesPath, JSON.stringify(currentGames, null, 2));
             
             return NextResponse.json(gameFromApi);

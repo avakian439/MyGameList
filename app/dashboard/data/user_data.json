@@ -14,7 +14,40 @@
       "completedAt": "2024-05-20T15:30:00Z"
     },
     {
-      "gameId": "2345",
+      "gameId": "persona-5",
+      "status": "wishlist",
+      "reviews": [
+        {
+          "reviewScore": 10,
+          "reviewText": "Amazing game!",
+          "reviewedAt": "2024-05-20T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "gameId": "persona-3-reload",
+      "status": "wishlist",
+      "reviews": [
+        {
+          "reviewScore": 10,
+          "reviewText": "Amazing game!",
+          "reviewedAt": "2024-05-20T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "gameId": "xcom-2",
+      "status": "wishlist",
+      "reviews": [
+        {
+          "reviewScore": 10,
+          "reviewText": "Amazing game!",
+          "reviewedAt": "2024-05-20T15:30:00Z"
+        }
+      ]
+    },
+    {
+      "gameId": "darkest-dungeon",
       "status": "wishlist",
       "reviews": [
         {
@@ -61,7 +94,31 @@
       "completedAt": "2024-05-20T15:30:00Z"
     },
     {
-      "gameId": "6969",
+      "gameId": "grand-theft-auto-v",
+      "status": "completed",
+      "reviews": [
+        {
+          "reviewScore": 4,
+          "reviewText": "Amazing game!",
+          "reviewedAt": "2024-05-20T15:30:00Z"
+        }
+      ],
+      "completedAt": "2024-05-20T15:30:00Z"
+    },
+    {
+      "gameId": "41494",
+      "status": "completed",
+      "reviews": [
+        {
+          "reviewScore": 10,
+          "reviewText": "Amazing game!",
+          "reviewedAt": "2024-05-20T15:30:00Z"
+        }
+      ],
+      "completedAt": "2024-05-20T15:30:00Z"
+    },
+    {
+      "gameId": "civilization-vi",
       "status": "completed",
       "reviews": [
         {

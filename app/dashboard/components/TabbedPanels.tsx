@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { UserGameData, Game } from "@/lib/types";
 import GameCard from "./GameCard";
 import ViewToggle from "./ViewToggle";
+import GameModal from "./GameModal";
 
 type ViewMode = "cards" | "details";
 
@@ -15,9 +16,10 @@ interface GamesViewProps {
     viewMode: ViewMode;
     showScore?: boolean;
     showStatus?: boolean;
+    onGameClick: (game: UserGameWithDetails) => void;
 }
 
-const GamesView = ({ games, viewMode, showScore, showStatus }: GamesViewProps) => {
+const GamesView = ({ games, viewMode, showScore, showStatus, onGameClick }: GamesViewProps) => {
     const gameCards = games.map((g, idx) => {
         const latestReview = g.reviews?.[g.reviews.length - 1];
         const genres = Array.isArray(g.game.genres) 
@@ -36,6 +38,7 @@ const GamesView = ({ games, viewMode, showScore, showStatus }: GamesViewProps) =
                 platforms={platforms}
                 description={g.game.description || ""}
                 viewMode={viewMode}
+                onClick={() => onGameClick(g)}
                 {...(showScore && latestReview?.reviewScore && { 
                     show_score: true, 
                     score: latestReview.reviewScore 
@@ -50,7 +53,7 @@ const GamesView = ({ games, viewMode, showScore, showStatus }: GamesViewProps) =
             {gameCards}
         </div>
     ) : (
-        <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-6 place-items-center">
+        <div className="mt-4 grid gap-6 justify-center" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 256px))' }}>
             {gameCards}
         </div>
     );
@@ -64,6 +67,18 @@ export default function TabbedPanels() {
         return "cards";
     });
     const [allGames, setAllGames] = useState<UserGameWithDetails[]>([]);
+    const [selectedGame, setSelectedGame] = useState<UserGameWithDetails | null>(null);
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleGameClick = (game: UserGameWithDetails) => {
+        setSelectedGame(game);
+        setIsModalOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+        setSelectedGame(null);
+    };
 
     useEffect(() => {
         fetch("/api/user/games")
@@ -140,8 +155,18 @@ export default function TabbedPanels() {
                 </div>
             </div>
             <div>
-                <GamesView games={currentGames} viewMode={viewMode} showScore={showScore} showStatus={showStatus} />
+                <GamesView games={currentGames} viewMode={viewMode} showScore={showScore} showStatus={showStatus} onGameClick={handleGameClick} />
             </div>
+            
+            {/* Game Modal */}
+            {selectedGame && (
+                <GameModal 
+                    game={selectedGame.game}
+                    userGameData={selectedGame}
+                    isOpen={isModalOpen}
+                    onClose={closeModal}
+                />
+            )}
         </div>
     );
 }

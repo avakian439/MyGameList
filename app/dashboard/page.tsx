@@ -4,9 +4,9 @@ import { redirect } from 'next/navigation';
 import { UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
 import TabbedPanels from './components/TabbedPanels';
-import { GenreTracker } from './components/GenreTracker';
+import { GenreTrackerWrapper } from './components/GenreTrackerWrapper';
 import quips from './data/quip.json';
-import { calculateGenreStats } from '@/lib/utils';
+import { calculateGenreStats, calculateGenreStatsByScore } from '@/lib/utils';
 import userData from './data/user_data.json';
 import gamesData from './data/games.json';
 
@@ -35,6 +35,7 @@ export default async function DashboardPage() {
         .map(ug => games[ug.gameId])
         .filter(Boolean);
     const genreStats = calculateGenreStats(userGameDetails);
+    const genreStatsByScore = calculateGenreStatsByScore(userGameDetails, userGames);
 
 
     return (
@@ -64,7 +65,7 @@ export default async function DashboardPage() {
                     </div>
 
                     {/* Stats Cards */}
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 auto-rows-fr">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 md:auto-rows-fr">
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Total Games</h3>
                             <p className="text-3xl font-bold">0</p>
@@ -75,8 +76,8 @@ export default async function DashboardPage() {
                             <p className="text-3xl font-bold">0</p>
                             <p className="text-gray-400 text-sm mt-2">What are you playing?</p>
                         </div>
-                        <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700 md:row-span-2">
-                            <GenreTracker genres={genreStats} />
+                        <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700 md:row-span-2 flex flex-col">
+                            <GenreTrackerWrapper countStats={genreStats} scoreStats={genreStatsByScore} />
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Avg. Rating</h3>

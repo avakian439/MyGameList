@@ -47,7 +47,7 @@ export function GenreTracker({ genres: providedGenres }: GenreTrackerProps) {
     const startAngle = -90;
     const n = 8;
 
-    // Calculate data polygon points based on percentile values
+    // Calculate data polygon points based on percentile values (0-100)
     const dataPoints = genres.map((genre, i) => {
         const angle = (startAngle + (360 / n) * i) * Math.PI / 180;
         const r = (genre.value / 100) * maxRadius; // Scale radius by percentile
@@ -59,14 +59,14 @@ export function GenreTracker({ genres: providedGenres }: GenreTrackerProps) {
     // Calculate octagon vertices for reference lines
     const octagonPoints = Array.from({length: n}, (_, i) => {
         const angle = (startAngle + (360 / n) * i) * Math.PI / 180;
-        const x = cx + maxRadius * Math.cos(angle);
-        const y = cy + maxRadius * Math.sin(angle);
+        const x = parseFloat((cx + maxRadius * Math.cos(angle)).toFixed(2));
+        const y = parseFloat((cy + maxRadius * Math.sin(angle)).toFixed(2));
         return { x, y };
     });
 
     return (
-        <div className="relative">
-            <svg viewBox="-4 -2 32 28" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+        <div className="relative w-full h-full flex items-center justify-center">
+            <svg viewBox="-4 -2 32 28" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" className="w-full h-full min-h-[280px]">
                 {/* Background rings (r=10, 8, 6, 4, 2) */}
                 <polygon
                     points="12.0 2.0 19.1 4.9 22.0 12.0 19.1 19.1 12.0 22.0 4.9 19.1 2.0 12.0 4.9 4.9"
@@ -115,8 +115,8 @@ export function GenreTracker({ genres: providedGenres }: GenreTrackerProps) {
                 {genres.map((genre, i) => {
                     const angle = (startAngle + (360 / n) * i) * Math.PI / 180;
                     const r = (genre.value / 100) * maxRadius;
-                    const x = cx + r * Math.cos(angle);
-                    const y = cy + r * Math.sin(angle);
+                    const x = parseFloat((cx + r * Math.cos(angle)).toFixed(2));
+                    const y = parseFloat((cy + r * Math.sin(angle)).toFixed(2));
                     return (
                         <circle
                             key={`point-${i}`}
@@ -132,8 +132,8 @@ export function GenreTracker({ genres: providedGenres }: GenreTrackerProps) {
                 {genres.map((genre, i) => {
                     const angle = (startAngle + (360 / n) * i) * Math.PI / 180;
                     const labelRadius = maxRadius + 2; // Position labels outside the octagon
-                    const x = cx + labelRadius * Math.cos(angle);
-                    const y = cy + labelRadius * Math.sin(angle);
+                    const x = parseFloat((cx + labelRadius * Math.cos(angle)).toFixed(2));
+                    const y = parseFloat((cy + labelRadius * Math.sin(angle)).toFixed(2));
                     
                     // Adjust text anchor based on position
                     let textAnchor: "start" | "middle" | "end" = "middle";
