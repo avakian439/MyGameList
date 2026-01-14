@@ -60,7 +60,7 @@ const GamesView = ({ games, viewMode, showScore, showStatus, onGameClick }: Game
 };
 
 export default function TabbedPanels() {
-    const tabs = ["All", "Completed", "Playing", "Wishlist"] as const;
+    const tabs = ["All", "Completed", "Playing", "Wishlist", "Dropped"] as const;
     type Tab = (typeof tabs)[number];
     const [active, setActive] = useState<Tab>(tabs[0]);
     const [viewMode, setViewMode] = useState<ViewMode>(() => {
@@ -119,6 +119,7 @@ export default function TabbedPanels() {
         Completed: allGames.filter(g => g.status === "completed"),
         Playing: allGames.filter(g => g.status === "playing"),
         Wishlist: allGames.filter(g => g.status === "wishlist"),
+        Dropped: allGames.filter(g => g.status === "dropped"),
     };
 
     const currentGames = gamesByTab[active];

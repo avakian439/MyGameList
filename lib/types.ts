@@ -33,12 +33,14 @@ export interface UserData{
         totalGames: number;
         playing: number;
         completed: number;
+        wishlist?: number;
+        dropped?: number;
     };
 }
 
 export interface UserGameData{
     gameId: string;
-    status: "playing" | "completed" | "wishlist";
+    status: "playing" | "completed" | "wishlist" | "dropped";
     reviews?: {
         reviewScore?: number;
         reviewText?: string;

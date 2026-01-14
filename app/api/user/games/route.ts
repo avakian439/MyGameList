@@ -24,9 +24,9 @@ export async function POST(request: Request) {
             );
         }
 
-        if (!["playing", "completed", "wishlist"].includes(status)) {
+        if (!["playing", "completed", "wishlist", "dropped"].includes(status)) {
             return NextResponse.json(
-                { error: "status must be one of: playing, completed, wishlist" },
+                { error: "status must be one of: playing, completed, wishlist, dropped" },
                 { status: 400 }
             );
         }
@@ -83,7 +83,9 @@ export async function POST(request: Request) {
         currentUserData.stats = {
             totalGames: currentUserData.games.length,
             playing: currentUserData.games.filter(g => g.status === "playing").length,
-            completed: currentUserData.games.filter(g => g.status === "completed").length
+            completed: currentUserData.games.filter(g => g.status === "completed").length,
+            wishlist: currentUserData.games.filter(g => g.status === "wishlist").length,
+            dropped: currentUserData.games.filter(g => g.status === "dropped").length
         };
 
         // Write updated data back to file

@@ -64,7 +64,7 @@ export default function GameModal({ game, userGameData, isOpen, onClose, onStatu
 
     if (!isOpen) return null;
 
-    const handleStatusChange = async (newStatus: "playing" | "completed" | "wishlist") => {
+    const handleStatusChange = async (newStatus: "playing" | "completed" | "wishlist" | "dropped") => {
         if (!userGameData || newStatus === currentStatusValue) {
             setIsStatusDropdownOpen(false);
             return;
@@ -101,10 +101,11 @@ export default function GameModal({ game, userGameData, isOpen, onClose, onStatu
         }
     };
 
-    const statusOptions: Array<{ value: "playing" | "completed" | "wishlist"; label: string; color: string }> = [
+    const statusOptions: Array<{ value: "playing" | "completed" | "wishlist" | "dropped"; label: string; color: string }> = [
         { value: "playing", label: "Playing", color: "bg-blue-600" },
         { value: "completed", label: "Completed", color: "bg-green-600" },
         { value: "wishlist", label: "Wishlist", color: "bg-purple-600" },
+        { value: "dropped", label: "Dropped", color: "bg-red-600" },
     ];
 
     const currentStatus = statusOptions.find(opt => opt.value === currentStatusValue) || statusOptions[0];

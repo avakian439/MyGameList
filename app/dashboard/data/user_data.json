@@ -119,21 +119,22 @@
       "completedAt": "2024-05-20T15:30:00Z"
     },
     {
-      "gameId": "civilization-vi",
-      "status": "completed",
+      "gameId": "10297",
+      "status": "dropped",
       "reviews": [
         {
           "reviewScore": 10,
           "reviewText": "Amazing game!",
           "reviewedAt": "2024-05-20T15:30:00Z"
         }
-      ],
-      "completedAt": "2024-05-20T15:30:00Z"
+      ]
     }
   ],
   "stats": {
     "totalGames": 11,
     "playing": 1,
-    "completed": 7
+    "completed": 6,
+    "wishlist": 3,
+    "dropped": 1
   }
 }

@@ -80,9 +80,9 @@ export default function GameCard({ gameName, description, image, genres, platfor
 
   const statusClass = (() => {
     if (status == null) return 'bg-black/50'; // fallback
-    if (status == 'completed') return 'bg-black/50';
-    if (status == 'playing') return 'bg-green-600/50';
-    if (status == 'wishlist') return 'bg-yellow-500/50';
+    if (status == 'completed') return 'bg-green-600/50';
+    if (status == 'playing') return 'bg-blue-600/50';
+    if (status == 'wishlist') return 'bg-purple-600/50';
     if (status == 'dropped') return 'bg-red-600/50';
 
     return 'bg-red-600/50';
