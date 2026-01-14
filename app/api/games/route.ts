@@ -2,36 +2,43 @@ import { NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
 import games from "../../dashboard/data/games.json";
-
-type Game = {
-    rawg_slug?: string;
-    title: string;
-    image?: string;
-    last_updated_at?: string;
-    [k: string]: unknown;
-};
+import { Game } from "../../../lib/types";
+import { getGameDetails } from "../../../lib/rawg-api";
 
 export async function GET(request: Request) {
     const { searchParams } = new URL(request.url);
     const gameId = searchParams.get("id");
 
     if (gameId) {
-        // Return a specific game by ID
-        const game = (games as Record<string, Game>)[gameId];
-        if (!game) {
+        // First, check if game exists locally
+        const localGame = (games as Record<string, Game>)[gameId];
+        if (localGame) {
+            return NextResponse.json(localGame);
+        }
+        
+        // If not found locally, fetch from RAWG API
+        try {
+            const gameFromApi = await getGameDetails(Number(gameId));
+            
+            // Optionally save to local storage for future use
+            const gamesPath = path.join(process.cwd(), "app/dashboard/data/games.json");
+            const fileContent = await fs.readFile(gamesPath, "utf-8");
+            const currentGames = JSON.parse(fileContent) as Record<string, Game>;
+            currentGames[gameId] = gameFromApi;
+            await fs.writeFile(gamesPath, JSON.stringify(currentGames, null, 2));
+            
+            return NextResponse.json(gameFromApi);
+        } catch (error) {
+            console.error("Error fetching game from RAWG API:", error);
             return NextResponse.json(
                 { error: "Game not found" },
                 { status: 404 }
             );
         }
-        return NextResponse.json({ id: gameId, ...game });
     }
 
     // Return all games
-    const allGames = Object.entries(games).map(([id, game]) => ({
-        id,
-        ...game
-    }));
+    const allGames = Object.entries(games).map(([_, game]) => game);
 
     return NextResponse.json({ games: allGames, total: allGames.length });
 }
@@ -39,11 +46,11 @@ export async function GET(request: Request) {
 export async function POST(request: Request) {
     try {
         const body = await request.json();
-        const { id, title, rawg_slug, image, ...otherData } = body;
+        const { id, ...gameData } = body as { id: number } & Partial<Game>;
 
-        if (!id || !title) {
+        if (!id || !gameData.name) {
             return NextResponse.json(
-                { error: "id and title are required" },
+                { error: "id and name are required" },
                 { status: 400 }
             );
         }
@@ -51,7 +58,7 @@ export async function POST(request: Request) {
         // Read current games data
         const gamesPath = path.join(process.cwd(), "app/dashboard/data/games.json");
         const fileContent = await fs.readFile(gamesPath, "utf-8");
-        const currentGames = JSON.parse(fileContent);
+        const currentGames = JSON.parse(fileContent) as Record<string, Game>;
 
         // Check if game already exists
         if (currentGames[id]) {
@@ -61,14 +68,14 @@ export async function POST(request: Request) {
             );
         }
 
-        // Add new game
-        currentGames[id] = {
-            title,
-            rawg_slug,
-            image,
-            last_updated_at: new Date().toISOString(),
-            ...otherData
+        // Add new game with proper structure
+        const newGame: Game = {
+            id,
+            name: gameData.name,
+            ...gameData
         };
+
+        currentGames[id] = newGame;
 
         // Write updated data back to file
         await fs.writeFile(gamesPath, JSON.stringify(currentGames, null, 2));
@@ -76,7 +83,7 @@ export async function POST(request: Request) {
         return NextResponse.json({
             success: true,
             message: "Game added successfully",
-            game: { id, ...currentGames[id] }
+            game: newGame
         });
 
     } catch (error) {
@@ -91,7 +98,7 @@ export async function POST(request: Request) {
 export async function PUT(request: Request) {
     try {
         const body = await request.json();
-        const { id, ...updateData } = body;
+        const { id, ...updateData } = body as { id: number } & Partial<Game>;
 
         if (!id) {
             return NextResponse.json(
@@ -103,7 +110,7 @@ export async function PUT(request: Request) {
         // Read current games data
         const gamesPath = path.join(process.cwd(), "app/dashboard/data/games.json");
         const fileContent = await fs.readFile(gamesPath, "utf-8");
-        const currentGames = JSON.parse(fileContent);
+        const currentGames = JSON.parse(fileContent) as Record<string, Game>;
 
         // Check if game exists
         if (!currentGames[id]) {
@@ -113,11 +120,10 @@ export async function PUT(request: Request) {
             );
         }
 
-        // Update game
+        // Update game with proper type checking
         currentGames[id] = {
             ...currentGames[id],
-            ...updateData,
-            last_updated_at: new Date().toISOString()
+            ...updateData
         };
 
         // Write updated data back to file
@@ -126,7 +132,7 @@ export async function PUT(request: Request) {
         return NextResponse.json({
             success: true,
             message: "Game updated successfully",
-            game: { id, ...currentGames[id] }
+            game: currentGames[id]
         });
 
     } catch (error) {
@@ -153,7 +159,7 @@ export async function DELETE(request: Request) {
         // Read current games data
         const gamesPath = path.join(process.cwd(), "app/dashboard/data/games.json");
         const fileContent = await fs.readFile(gamesPath, "utf-8");
-        const currentGames = JSON.parse(fileContent);
+        const currentGames = JSON.parse(fileContent) as Record<string, Game>;
 
         // Check if game exists
         if (!currentGames[id]) {

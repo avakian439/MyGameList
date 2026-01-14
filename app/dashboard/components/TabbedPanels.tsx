@@ -1,36 +1,49 @@
 "use client";
 import { useState, useEffect } from "react";
+import { UserGameData, Game } from "@/lib/types";
 import GameCard from "./GameCard";
 import ViewToggle from "./ViewToggle";
 
 type ViewMode = "cards" | "details";
 
-// Game type and reusable component
-type Game = { 
-    title: string; 
-    image: string;
-    reviewScore?: number;
-    status?: "completed" | "playing" | "wishlist";
+type UserGameWithDetails = UserGameData & {
+    game: Game;
 };
 
 interface GamesViewProps {
-    games: Game[];
+    games: UserGameWithDetails[];
     viewMode: ViewMode;
     showScore?: boolean;
     showStatus?: boolean;
 }
 
 const GamesView = ({ games, viewMode, showScore, showStatus }: GamesViewProps) => {
-    const gameCards = games.map((g, idx) => (
-        <GameCard
-            key={idx}
-            gameName={g.title}
-            image={g.image}
-            viewMode={viewMode}
-            {...(showScore && { show_score: !!g.reviewScore, score: g.reviewScore })}
-            {...(showStatus && { show_status: !!g.status, status: g.status })}
-        />
-    ));
+    const gameCards = games.map((g, idx) => {
+        const latestReview = g.reviews?.[g.reviews.length - 1];
+        const genres = Array.isArray(g.game.genres) 
+            ? g.game.genres.map(genre => genre.name).join(', ') 
+            : '';
+        const platforms = Array.isArray(g.game.platforms)
+            ? g.game.platforms.map(plat => plat.platform.name).join(', ')
+            : '';
+        
+        return (
+            <GameCard
+                key={idx}
+                gameName={g.game.name}
+                image={g.game.background_image || "https://media.rawg.io/media/screenshots/df3/df397a86c8d5b4023fe13fa6dd7f140f.jpeg"}
+                genres={genres}
+                platforms={platforms}
+                description={g.game.description || ""}
+                viewMode={viewMode}
+                {...(showScore && latestReview?.reviewScore && { 
+                    show_score: true, 
+                    score: latestReview.reviewScore 
+                })}
+                {...(showStatus && { show_status: true, status: g.status })}
+            />
+        );
+    });
 
     return viewMode === "details" ? (
         <div role="tabpanel" className="mt-4 flex flex-col space-y-3">
@@ -50,16 +63,43 @@ export default function TabbedPanels() {
     const [viewMode, setViewMode] = useState<ViewMode>(() => {
         return "cards";
     });
-    const [allGames, setAllGames] = useState<Game[]>([]);
+    const [allGames, setAllGames] = useState<UserGameWithDetails[]>([]);
 
     useEffect(() => {
         fetch("/api/user/games")
-            .then((r) => r.json())
-            .then((data) => setAllGames(data.games || []))
+            .then(r => r.json())
+            .then(async (userData) => {
+                const userGames = userData.games || [];
+                
+                // Fetch game details for each user game
+                const gamesWithDetails = await Promise.all(
+                    userGames.map(async (userGame: UserGameData) => {
+                        try {
+                            const response = await fetch(`/api/games?id=${userGame.gameId}`);
+                            if (!response.ok) {
+                                console.error(`Failed to fetch game ${userGame.gameId}`);
+                                return null;
+                            }
+                            const game = await response.json();
+                            return {
+                                ...userGame,
+                                game
+                            };
+                        } catch (error) {
+                            console.error(`Error fetching game ${userGame.gameId}:`, error);
+                            return null;
+                        }
+                    })
+                );
+
+                // Filter out null values (failed fetches)
+                const validGames = gamesWithDetails.filter((g): g is UserGameWithDetails => g !== null);
+                setAllGames(validGames);
+            })
             .catch(console.error);
     }, []);
 
-    const gamesByTab: Record<Tab, Game[]> = {
+    const gamesByTab: Record<Tab, UserGameWithDetails[]> = {
         All: allGames,
         Completed: allGames.filter(g => g.status === "completed"),
         Playing: allGames.filter(g => g.status === "playing"),
@@ -86,9 +126,9 @@ export default function TabbedPanels() {
                                 role="tab"
                                 aria-selected={active === t}
                                 onClick={() => setActive(t)}
-                                className={`px-3 py-1 rounded text-sm font-medium focus:outline-none focus:ring-2 focus:ring-purple-500 ${
+                                className={`px-3 py-1 rounded text-sm font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 ${
                                     active === t
-                                        ? "bg-purple-600 text-white"
+                                        ? "bg-blue-600 text-white"
                                         : "bg-gray-700 text-gray-300"
                                 }`}
                             >

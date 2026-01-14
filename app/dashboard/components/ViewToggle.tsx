@@ -14,7 +14,7 @@ export default function ViewToggle({ viewMode, setViewMode }: Props) {
       <button
         aria-pressed={viewMode === 'cards'}
         onClick={() => setViewMode('cards')}
-        className={`p-2 rounded text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 ${viewMode === 'cards' ? 'bg-purple-600 text-white' : 'bg-gray-700 text-gray-300'}`}
+        className={`p-2 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 ${viewMode === 'cards' ? 'bg-blue-600 text-white' : 'bg-gray-700 text-gray-300'}`}
         title="Cards view"
       >
         <Grid className="w-4 h-4" />
@@ -23,7 +23,7 @@ export default function ViewToggle({ viewMode, setViewMode }: Props) {
       <button
         aria-pressed={viewMode === 'details'}
         onClick={() => setViewMode('details')}
-        className={`p-2 rounded text-sm focus:outline-none focus:ring-2 focus:ring-purple-500 ${viewMode === 'details' ? 'bg-purple-600 text-white' : 'bg-gray-700 text-gray-300'}`}
+        className={`p-2 rounded text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 ${viewMode === 'details' ? 'bg-blue-600 text-white' : 'bg-gray-700 text-gray-300'}`}
         title="Details view"
       >
         <List className="w-4 h-4" />

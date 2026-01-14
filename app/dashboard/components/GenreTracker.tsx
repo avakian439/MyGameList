@@ -14,22 +14,33 @@ const points = Array.from({length: n}, (_, i) => {
 console.log(points);
 */
 
-const outer = "#332a47";
-const inner = "#fd6107";
+const outer = "#1d2a40";
+const inner = "#111721";
 const progress = "#fdd807a6";
 
-export function GenreTracker() {
-    // 8 variables (0-100 percentile values)
-    const genres = [
-        { name: "Action", value: 75 },
-        { name: "RPG", value: 60 },
-        { name: "Strategy", value: 40 },
-        { name: "Puzzle", value: 85 },
-        { name: "Adventure", value: 50 },
-        { name: "Sports", value: 30 },
-        { name: "Horror", value: 70 },
-        { name: "Indie", value: 90 }
+type GenreData = {
+    name: string;
+    value: number;
+};
+
+type GenreTrackerProps = {
+    genres?: GenreData[];
+};
+
+export function GenreTracker({ genres: providedGenres }: GenreTrackerProps) {
+    // Default 8 genre values (0-100 percentile values)
+    const defaultGenres = [
+        { name: "Action", value: 0 },
+        { name: "RPG", value: 0 },
+        { name: "Strategy", value: 0 },
+        { name: "Puzzle", value: 0 },
+        { name: "Adventure", value: 0 },
+        { name: "Sports", value: 0 },
+        { name: "Horror", value: 0 },
+        { name: "Indie", value: 0 }
     ];
+
+    const genres = providedGenres || defaultGenres;
 
     const cx = 12, cy = 12;
     const maxRadius = 10;
@@ -55,7 +66,7 @@ export function GenreTracker() {
 
     return (
         <div className="relative">
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="-4 -2 32 28" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
                 {/* Background rings (r=10, 8, 6, 4, 2) */}
                 <polygon
                     points="12.0 2.0 19.1 4.9 22.0 12.0 19.1 19.1 12.0 22.0 4.9 19.1 2.0 12.0 4.9 4.9"
@@ -114,6 +125,33 @@ export function GenreTracker() {
                             r="0.4"
                             fill="#fdd807"
                         />
+                    );
+                })}
+
+                {/* Genre labels */}
+                {genres.map((genre, i) => {
+                    const angle = (startAngle + (360 / n) * i) * Math.PI / 180;
+                    const labelRadius = maxRadius + 2; // Position labels outside the octagon
+                    const x = cx + labelRadius * Math.cos(angle);
+                    const y = cy + labelRadius * Math.sin(angle);
+                    
+                    // Adjust text anchor based on position
+                    let textAnchor: "start" | "middle" | "end" = "middle";
+                    if (x < cx - 0.5) textAnchor = "end";
+                    else if (x > cx + 0.5) textAnchor = "start";
+                    
+                    return (
+                        <text
+                            key={`label-${i}`}
+                            x={x}
+                            y={y}
+                            textAnchor={textAnchor}
+                            dominantBaseline="middle"
+                            className="text-[1.1px] fill-gray-300"
+                            style={{ fontSize: '1.1px' }}
+                        >
+                            {genre.name}
+                        </text>
                     );
                 })}
             </svg>

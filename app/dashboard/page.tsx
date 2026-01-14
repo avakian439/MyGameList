@@ -1,3 +1,4 @@
+import { Game, UserGameData } from '@/lib/types';
 import { auth, currentUser } from '@clerk/nextjs/server';
 import { redirect } from 'next/navigation';
 import { UserButton } from '@clerk/nextjs';
@@ -5,6 +6,9 @@ import Link from 'next/link';
 import TabbedPanels from './components/TabbedPanels';
 import { GenreTracker } from './components/GenreTracker';
 import quips from './data/quip.json';
+import { calculateGenreStats } from '@/lib/utils';
+import userData from './data/user_data.json';
+import gamesData from './data/games.json';
 
 const quip = quips[Math.floor(Math.random() * quips.length)];
 
@@ -24,9 +28,17 @@ export default async function DashboardPage() {
     user?.emailAddresses?.[0]?.emailAddress?.split('@')[0] ??
     'Player';
 
+    // Get user's games and calculate genre stats
+    const userGames = (userData.games || []) as UserGameData[];
+    const games = gamesData as Record<string, Game>;
+    const userGameDetails = userGames
+        .map(ug => games[ug.gameId])
+        .filter(Boolean);
+    const genreStats = calculateGenreStats(userGameDetails);
+
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
+        <div className="min-h-screen bg-linear-to-b from-gray-900 to-black text-white">
             {/* Navigation */}
             <nav className="border-b border-gray-800">
                 <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -44,7 +56,7 @@ export default async function DashboardPage() {
             <main className="container mx-auto px-4 py-8">
                 <div className="max-w-6xl mx-auto">
                     {/* Welcome Banner */}
-                    <div className="bg-gradient-to-r from-purple-900/50 to-blue-900/50  p-8 mb-8 border border-purple-700/30">
+                    <div className="bg-linear-to-r from-purple-900/50 to-blue-900/50  p-8 mb-8 border border-purple-700/30">
                         <h1 className="text-3xl font-bold mb-2">
                             Welcome back, <span className="text-purple-300">{displayName}</span>!
                         </h1>
@@ -64,7 +76,7 @@ export default async function DashboardPage() {
                             <p className="text-gray-400 text-sm mt-2">What are you playing?</p>
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700 md:row-span-2">
-                            <GenreTracker/>
+                            <GenreTracker genres={genreStats} />
                         </div>
                         <div className="bg-gray-800/50 backdrop-blur-sm  p-6 border border-gray-700">
                             <h3 className="text-gray-400 text-sm mb-2">Avg. Rating</h3>

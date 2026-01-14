@@ -1,31 +1,7 @@
+import { Game } from "./types";
+
 const RAWG_API_KEY = process.env.NEXT_PUBLIC_RAWG_API_KEY;
 const BASE_URL = 'https://api.rawg.io/api';
-
-export interface Game{
-    id: number;
-    name: string;
-    released: string;
-    background_image: string;
-    rating: number;
-    rating_top: number;
-    ratings_count: number;
-    metacritic: number;
-    playtime: number;
-    platforms:{
-        platform: {
-            id:number;
-            name: string;
-        };
-    }[];
-    genres:{
-        id:number;
-        name: string;
-    }[];
-    short_screenshots:{
-        id:number;
-        image: string;
-    }[];
-}
 
 export interface ApiResponse{
     count: number;

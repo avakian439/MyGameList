@@ -6,7 +6,10 @@ type status = 'completed' | 'playing' | 'wishlist' | 'dropped';
 
 interface Props {
   gameName: string;
+  description?: string;
   image: string;
+  genres?: string;
+  platforms?: string;
   viewMode?: ViewMode;
   show_score?: boolean;
   score?: number;
@@ -14,7 +17,59 @@ interface Props {
   status?: status;
 }
 
-export default function GameCard({ gameName, image, show_score = false, score, show_status = false, status = 'completed', viewMode = 'cards' }: Props) {
+/**
+ * Formats platforms with priority ordering:
+ * PC -> newest Xbox -> newest PlayStation -> newest Nintendo -> others
+ */
+function formatPlatforms(platforms?: string, maxCount: number = 3): string {
+  if (!platforms) return '';
+  
+  const platformList = platforms.split(',').map(p => p.trim());
+  
+  // Priority order mapping
+  const priorityOrder = [
+    { keywords: ['PC'], priority: 1 },
+    { keywords: ['PlayStation 5', 'PlayStation 4', 'PS5', 'PS4'], priority: 2 },
+    { keywords: ['Xbox Series', 'Xbox One'], priority: 3 },
+    { keywords: ['Nintendo Switch'], priority: 4 },
+  ];
+  
+  const sorted = platformList.sort((a, b) => {
+    const aPriority = priorityOrder.find(p => p.keywords.some(k => a.includes(k)))?.priority ?? 999;
+    const bPriority = priorityOrder.find(p => p.keywords.some(k => b.includes(k)))?.priority ?? 999;
+    return aPriority - bPriority;
+  });
+  
+  const limited = sorted.slice(0, maxCount);
+  return limited.join(', ') + (sorted.length > maxCount ? '...' : '');
+}
+
+/**
+ * Limits genres to a maximum count
+ */
+function formatGenres(genres?: string, maxCount: number = 3): string {
+  if (!genres) return '';
+  
+  const genreList = genres.split(',').map(g => g.trim());
+  const limited = genreList.slice(0, maxCount);
+  return limited.join(', ') + (genreList.length > maxCount ? '...' : '');
+}
+
+/**
+ * Truncates HTML content by character count
+ */
+function truncateHtml(html?: string, maxLength: number = 150): string {
+  if (!html) return '';
+  
+  if (html.length <= maxLength) return html;
+  
+  return html.substring(0, maxLength).trim() + '...';
+}
+
+export default function GameCard({ gameName, description, image, genres, platforms, show_score = false, score, show_status = false, status = 'completed', viewMode = 'cards' }: Props) {
+  const formattedGenres = formatGenres(genres);
+  const formattedPlatforms = formatPlatforms(platforms);
+  const truncatedDescription = truncateHtml(description);
   const scoreClass = (() => {
     if (score == null) return 'bg-black/50'; // fallback
     if (score >= 8) return 'bg-green-600/50';
@@ -46,12 +101,18 @@ export default function GameCard({ gameName, image, show_score = false, score, s
   if (viewMode === 'details') {
     return (
       <div className="w-full rounded-lg overflow-hidden bg-gray-800 p-3 flex items-center gap-4 border border-gray-700 relative z-0">
-        <div className="flex-shrink-0 w-28 h-20 relative rounded overflow-hidden">
+        <div className="shrink-0 w-28 h-20 relative rounded overflow-hidden">
           <Image src={image} alt={gameName} className="object-cover w-full h-full" width={128} height={96} />
         </div>
         <div className="min-w-0 flex-1">
           <h3 className="font-semibold text-sm text-white truncate">{gameName}</h3>
-          <p className="text-xs text-gray-300">Platform • More details here</p>
+          <p className="text-xs text-gray-300">
+            {formattedGenres}
+            {formattedGenres && formattedPlatforms && ' • '}
+            {formattedPlatforms}
+            <br></br>
+            {truncatedDescription && <span dangerouslySetInnerHTML={{ __html: truncatedDescription }} />}
+          </p>
         </div>
 
         <div className="flex items-center space-x-2">
@@ -124,13 +185,13 @@ export default function GameCard({ gameName, image, show_score = false, score, s
         <Image src={image} alt={gameName} className="w-full h-40 object-cover" width={256} height={160} />
 
         {/* Soft dark gradient for lower half */}
-        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-linear-to-t from-black/60 to-transparent pointer-events-none" />
 
         {/* Content */}
         <div className="absolute bottom-0 left-0 right-0 p-3 flex items-center justify-between">
           <div className="min-w-0">
             <h3 className="font-semibold text-sm text-white truncate">{gameName}</h3>
-            <p className="text-xs text-gray-300">Game • Platform</p>
+            {(formattedGenres || formattedPlatforms) && <p className="text-xs text-gray-300">{formattedGenres}{formattedGenres && formattedPlatforms && ' • '}{formattedPlatforms}</p>}
           </div>
         </div>
       </div>
