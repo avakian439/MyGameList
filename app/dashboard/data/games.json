@@ -295,6 +295,531 @@
     "clip": null,
     "description_raw": "Persona series is a part of Japanese franchise Megami Tensei and is famous for its anime-like visual style. Persona 5 follows the unnamed main character, a high school student who was falsely accused of assault. He joins the Shujin Academy where he becomes the leading member of Phantom Thieves of Hearts. They are a gang of vigilantes who can to control their Personas and use them in a fight. The Personas are manifestations of people’s personalities that look like fictional characters. The Phantom Thieves accompany the main character in his battles as a party.\r\nThe world of Persona consists of two parts. One is the modern Tokyo, in which the main characters live their daily teenagers’ lives. This is the place for most character interactions, including romancing. The other part is Metaverse, a parallel supernatural world that contains Palaces, which are manifestations of people’s malicious thoughts and desires. By day, the main character and his friends attend school and meet friends, and by night, they fight villains in the Metaverse to steal treasures from their Palaces. Battles are turn-based, and characters use a variety of weapons as well as their Personas that provide them with battle magic."
   },
+  "779": {
+    "id": 779,
+    "slug": "roblox",
+    "name": "ROBLOX",
+    "name_original": "ROBLOX",
+    "description": "<p>Powering Imagination™<br />\nAll the games on ROBLOX are created by gamers like you! Play solo or with friends in a variety of indie games exclusive to ROBLOX. Find Strategy, Platformer, Role Playing, Tycoon, Shooter, Survival games and more! ROBLOX is free to play, although you can buy ROBUX, our virtual currency, to upgrade the look of your ROBLOX avatar or to get optional in-game power-ups.<br />\nCreate your own games for FREE at ROBLOX.com/develop<br />\nXbox Live Gold and an internet connection of 192 Kbps or higher required to play on Xbox One. THE ROBLOX GAME RATING APPLIES ONLY TO THE ROBLOX APP, NOT TO ANY USER GENERATED CONTENT INCLUDED WITHIN THE APP, WHICH IS UNRATED.</p>",
+    "metacritic": null,
+    "metacritic_platforms": [],
+    "released": "2006-09-01",
+    "tba": false,
+    "updated": "2026-01-15T17:47:59",
+    "background_image": "https://media.rawg.io/media/games/3af/3af386b6e26be6741b711ae6215ef42f.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/7e0/7e05ee6508a7a425426e665dd2655147.jpg",
+    "website": "https://roblox.com",
+    "rating": 3.3,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 99,
+        "percent": 32.78
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 91,
+        "percent": 30.13
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 58,
+        "percent": 19.21
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 54,
+        "percent": 17.88
+      }
+    ],
+    "reactions": {
+      "1": 3,
+      "2": 2,
+      "3": 5,
+      "4": 2,
+      "5": 2,
+      "6": 3,
+      "7": 4,
+      "8": 5,
+      "9": 1,
+      "10": 2,
+      "11": 1,
+      "12": 3,
+      "15": 1,
+      "18": 1
+    },
+    "added": 1250,
+    "added_by_status": {
+      "yet": 23,
+      "owned": 898,
+      "beaten": 51,
+      "toplay": 31,
+      "dropped": 167,
+      "playing": 80
+    },
+    "playtime": 173,
+    "screenshots_count": 10,
+    "movies_count": 0,
+    "creators_count": 1,
+    "achievements_count": 19,
+    "parent_achievements_count": 11,
+    "reddit_url": "https://reddit.com/r/roblox",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 161,
+    "twitch_count": 164,
+    "youtube_count": 1000000,
+    "reviews_text_count": 19,
+    "ratings_count": 283,
+    "suggestions_count": 268,
+    "alternative_names": [
+      "Dynablocks"
+    ],
+    "metacritic_url": "https://www.metacritic.com/game/pc/roblox",
+    "parents_count": 0,
+    "additions_count": 0,
+    "game_series_count": 0,
+    "user_game": null,
+    "reviews_count": 302,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "iOS",
+          "slug": "ios"
+        }
+      },
+      {
+        "platform": {
+          "id": 8,
+          "name": "Android",
+          "slug": "android"
+        }
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "Apple Macintosh",
+          "slug": "mac"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1403,
+          "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1210,
+          "image_background": "https://media.rawg.io/media/games/348/348640e78a7fcd4bb7dcad4fea014eeb.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 21,
+          "name": "Android",
+          "slug": "android",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 52498,
+          "image_background": "https://media.rawg.io/media/games/6d3/6d33014a4ed48a19c30a77ead5a0f62e.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {
+          "minimum": "4.4 and up"
+        }
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "macOS",
+          "slug": "macos",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 107970,
+          "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "iOS",
+          "slug": "ios",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 77428,
+          "image_background": "https://media.rawg.io/media/games/daa/daaee07fcb40744d90cf8142f94a241f.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {
+          "minimum": "iPad 2 Wifi, iPad 2 3G, iPhone 4S, iPad Third Gen, iPad Third Gen 4G, iPhone 5, iPod Touch Fifth Gen, iPad Fourth Gen, iPad Fourth Gen 4G, iPad Mini, iPad Mini 4G, iPhone 5c, iPhone 5s, iPad Air, iPad Air Cellular, iPad Mini Retina, iPad Mini Retina Cellular, iPhone 6, iPhone 6 Plus, iPad Air 2, iPad Air 2 Cellular, iPad Mini 3, iPad Mini 3 Cellular, iPod Touch Sixth Gen, iPhone 6s, iPhone 6s Plus, iPad Mini 4, iPad Mini 4 Cellular, iPad Pro, iPad Pro Cellular, iPad Pro 9.7, iPad Pro 9.7 Cellular, iPhone SE, iPhone 7, iPhone 7 Plus, iPad 6 1 1, iPad 6 1 2, iPad 7 1, iPad 7 2, iPad 7 3, iPad 7 4, iPhone 8, iPhone 8 Plus, iPhone X, iPad 7 5, iPad 7 6, iPhone X S, iPhone X S Max, iPhone X R, iPad 8 1 2, iPad 8 3 4, iPad 8 5 6, iPad 8 7 8,  Watch 4, iPad Mini 5, iPad Mini 5 Cellular, iPad Air 3, iPad Air 3 Cellular, iPod Touch Seventh Gen"
+        }
+      },
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2006-09-01",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 976310,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 791,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 40864,
+        "url": "",
+        "store": {
+          "id": 8,
+          "name": "Google Play",
+          "slug": "google-play",
+          "domain": "play.google.com",
+          "games_count": 17124,
+          "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+        }
+      },
+      {
+        "id": 65836,
+        "url": "",
+        "store": {
+          "id": 4,
+          "name": "App Store",
+          "slug": "apple-appstore",
+          "domain": "apps.apple.com",
+          "games_count": 75589,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 23605,
+        "name": "ROBLOX",
+        "slug": "roblox-corporation",
+        "games_count": 2,
+        "image_background": "https://media.rawg.io/media/games/891/8916b6d4d41c5931d1d5b6b1f525da7b.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 59613,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 151557,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Strategy",
+        "slug": "strategy",
+        "games_count": 62331,
+        "image_background": "https://media.rawg.io/media/games/e40/e40cc9d1957b0a0ed7e389834457b524.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Simulation",
+        "slug": "simulation",
+        "games_count": 76728,
+        "image_background": "https://media.rawg.io/media/games/179/179245a3693049a11a25b900ab18f8f7.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Sports",
+        "slug": "sports",
+        "games_count": 22609,
+        "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+      },
+      {
+        "id": 1,
+        "name": "Racing",
+        "slug": "racing",
+        "games_count": 25757,
+        "image_background": "https://media.rawg.io/media/games/19a/19a512a8c1293c22894b7364e1405ec1.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Arcade",
+        "slug": "arcade",
+        "games_count": 22680,
+        "image_background": "https://media.rawg.io/media/games/003/0031c0067559d41df19cf98ad87e02aa.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Board Games",
+        "slug": "board-games",
+        "games_count": 8393,
+        "image_background": "https://media.rawg.io/media/games/bf5/bf57458ef8360854c8bb3599a42ef58f.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Casual",
+        "slug": "casual",
+        "games_count": 67506,
+        "image_background": "https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Card",
+        "slug": "card",
+        "games_count": 4544,
+        "image_background": "https://media.rawg.io/media/games/1db/1dbc3d0c9de2709e21326cdcb91468ae.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Educational",
+        "slug": "educational",
+        "games_count": 15719,
+        "image_background": "https://media.rawg.io/media/games/60a/60a0b8f88184f25621b498c2ee1ebb05.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Family",
+        "slug": "family",
+        "games_count": 5416,
+        "image_background": "https://media.rawg.io/media/games/9f7/9f750cb69a31a42648f45e3681abed3a.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Fighting",
+        "slug": "fighting",
+        "games_count": 11776,
+        "image_background": "https://media.rawg.io/media/games/aac/aac683272f862540a18625f02f5f3679.jpg"
+      },
+      {
+        "id": 59,
+        "name": "Massively Multiplayer",
+        "slug": "massively-multiplayer",
+        "games_count": 4243,
+        "image_background": "https://media.rawg.io/media/games/4e0/4e0e7b6d6906a131307c94266e5c9a1c.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Indie",
+        "slug": "indie",
+        "games_count": 86160,
+        "image_background": "https://media.rawg.io/media/games/226/2262cea0b385db6cf399f4be831603b0.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Puzzle",
+        "slug": "puzzle",
+        "games_count": 97386,
+        "image_background": "https://media.rawg.io/media/games/198/1988a337305e008b41d7f536ce9b73f6.jpg"
+      },
+      {
+        "id": 83,
+        "name": "Platformer",
+        "slug": "platformer",
+        "games_count": 100918,
+        "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 7,
+        "name": "Multiplayer",
+        "slug": "multiplayer",
+        "language": "eng",
+        "games_count": 42508,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 1,
+        "name": "Survival",
+        "slug": "survival",
+        "language": "eng",
+        "games_count": 10815,
+        "image_background": "https://media.rawg.io/media/games/18c/18ca24ed4b700668c36b11ebc35f3d23.jpg"
+      },
+      {
+        "id": 744,
+        "name": "friends",
+        "slug": "friends",
+        "language": "eng",
+        "games_count": 15187,
+        "image_background": "https://media.rawg.io/media/games/1db/1dbc3d0c9de2709e21326cdcb91468ae.jpg"
+      },
+      {
+        "id": 4441,
+        "name": "cube",
+        "slug": "cube",
+        "language": "eng",
+        "games_count": 2212,
+        "image_background": "https://media.rawg.io/media/screenshots/1b4/1b46082176f5ae4081ef3c439d2254d8.jpg"
+      },
+      {
+        "id": 1158,
+        "name": "creative",
+        "slug": "creative",
+        "language": "eng",
+        "games_count": 1502,
+        "image_background": "https://media.rawg.io/media/screenshots/4df/4df381a99abc421edd29ae572777a2aa.jpg"
+      },
+      {
+        "id": 5318,
+        "name": "free-2-play",
+        "slug": "free-2-play",
+        "language": "eng",
+        "games_count": 6,
+        "image_background": "https://media.rawg.io/media/screenshots/4ea/4ea56c90033895d88c0a33d010dea13c_2QaS1X9.jpg"
+      },
+      {
+        "id": 1459,
+        "name": "editor",
+        "slug": "editor",
+        "language": "eng",
+        "games_count": 38,
+        "image_background": "https://media.rawg.io/media/screenshots/506/5065eb2dc1497a5a67ae775ad3e85d28.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 343,
+        "name": "ROBLOX",
+        "slug": "roblox",
+        "games_count": 0,
+        "image_background": ""
+      }
+    ],
+    "esrb_rating": {
+      "id": 1,
+      "name": "Everyone",
+      "slug": "everyone"
+    },
+    "clip": null,
+    "description_raw": "Powering Imagination™\nAll the games on ROBLOX are created by gamers like you! Play solo or with friends in a variety of indie games exclusive to ROBLOX. Find Strategy, Platformer, Role Playing, Tycoon, Shooter, Survival games and more! ROBLOX is free to play, although you can buy ROBUX, our virtual currency, to upgrade the look of your ROBLOX avatar or to get optional in-game power-ups.\nCreate your own games for FREE at ROBLOX.com/develop\nXbox Live Gold and an internet connection of 192 Kbps or higher required to play on Xbox One. THE ROBLOX GAME RATING APPLIES ONLY TO THE ROBLOX APP, NOT TO ANY USER GENERATED CONTENT INCLUDED WITHIN THE APP, WHICH IS UNRATED."
+  },
   "1234": {
     "id": 1234,
     "slug": "wand-wars",
@@ -2172,6 +2697,534 @@
     "clip": null,
     "description_raw": "*** More than 4.000.000 players can't be wrong! #1 Sports Game in various countries! NOW FREE FOR A VERY LIMITED TIME. GET IT NOW UNTIL THE PRICE IS BACK TO NORMAL ***\nStickman Soccer 2016 is the brand new sequel to the award winning Stickman Soccer with more than 50 million players. Experience pure soccer fun with fast paced gameplay, an astonishing atmosphere, stunning smooth animations, simple controls, insane action and tons of replay value in this from the ground up redesigned Soccer. Choose your soccer team and rank up while playing various seasons, national leagues, cups or the European Cup 2016 in France. Decide whether you want full control over your players with manual running and shoot timing or use the automatic running mode where you have control over precise pass timing and watch your players tackle your opponents. Choose your favorite soccer team from more than 100 different skilled teams and lead them to glory!\nEXPERIENCE PURE ARCADE SOCCER, not just another simulation!\nPLAY with your friends locally in the brand new and UNIQUE PARTY MODE!\n• Stickman Soccer brand won the \"Best Soccer Game 2015 Award” by German Soccer Culture Academy\n• The sequel to the #1 Soccer game in multiple countries\n• From the makers of various top hits like Stickman Basketball, Stickman Ice Hockey, Stickman Football, Stickman Tennis, Stickman Battlefields,  Stickman Cliff Diving, Stickman Base Jumper, Rope'n'Fly and more...\nFEATURES\n• Seasons, National Leagues and Cups\n• European Cup 2016 in France\n• Short and Long Seasons\n• Woman league and teams\n• Mini skill games with online leaderboard\n• Local multiplayer mode with up to 4 controllers (play in the same or opposite teams)\n• Brand new and unique Party Mode. Play with up to 4 players on your device\n• Quick Game and Shootout modes\n• New game mechanics including Fouls, Penalty Kick, Long Pass, Header, Corner, etc..\n• New movements and tactics\n• New 3D fluid animations\n• Various difficulty modes\n• Full controller and gamepad support\n• Simple yet powerful touch controls with timing control\n• Automatic or Manual Running\n• 100 different soccer teams to choose from\n• Match statistics\n• Compete with your friends with the integrated world ranking leaderboard\n• Smooth animations with 60 frames per second\nTake a look at the Stickman Soccer 2016 Trailer : https://www.youtube.com/watch?v=ylhGXq1nmXE\nFeel free to post your ideas, we will try to implement them as soon as possible\nThank you very much for all your support and interest in our games! We would love to hear your suggestions!"
   },
+  "3328": {
+    "id": 3328,
+    "slug": "the-witcher-3-wild-hunt",
+    "name": "The Witcher 3: Wild Hunt",
+    "name_original": "The Witcher 3: Wild Hunt",
+    "description": "<p>The third game in a series, it holds nothing back from the player. Open world adventures of the renowned monster slayer Geralt of Rivia are now even on a larger scale. Following the source material more accurately, this time Geralt is trying to find the child of the prophecy, Ciri while making a quick coin from various contracts on the side. Great attention to the world building above all creates an immersive story, where your decisions will shape the world around you.</p>\n<p>CD Project Red are infamous for the amount of work they put into their games, and it shows, because aside from classic third-person action RPG base game they provided 2 massive DLCs with unique questlines and 16 smaller DLCs, containing extra quests and items.</p>\n<p>Players praise the game for its atmosphere and a wide open world that finds the balance between fantasy elements and realistic and believable mechanics, and the game deserved numerous awards for every aspect of the game, from music to direction.</p>",
+    "metacritic": 92,
+    "metacritic_platforms": [
+      {
+        "metascore": 91,
+        "url": "https://www.metacritic.com/game/xbox-one/the-witcher-3-wild-hunt",
+        "platform": {
+          "platform": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one"
+        }
+      },
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "metascore": 92,
+        "url": "https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt",
+        "platform": {
+          "platform": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4"
+        }
+      }
+    ],
+    "released": "2015-05-18",
+    "tba": false,
+    "updated": "2026-01-19T05:58:39",
+    "background_image": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/3e4/3e4576a772b3df47bfc52b86e4cf7e03.jpg",
+    "website": "https://thewitcher.com/en/witcher3",
+    "rating": 4.64,
+    "rating_top": 5,
+    "ratings": [
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 5541,
+        "percent": 76.61
+      },
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 1178,
+        "percent": 16.29
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 317,
+        "percent": 4.38
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 197,
+        "percent": 2.72
+      }
+    ],
+    "reactions": {
+      "1": 64,
+      "2": 17,
+      "3": 57,
+      "4": 28,
+      "5": 16,
+      "6": 9,
+      "7": 18,
+      "9": 1,
+      "10": 16,
+      "11": 17,
+      "12": 21,
+      "14": 1,
+      "15": 1,
+      "16": 3,
+      "21": 1
+    },
+    "added": 22071,
+    "added_by_status": {
+      "yet": 1201,
+      "owned": 12839,
+      "beaten": 5260,
+      "toplay": 853,
+      "dropped": 1020,
+      "playing": 898
+    },
+    "playtime": 43,
+    "screenshots_count": 107,
+    "movies_count": 0,
+    "creators_count": 34,
+    "achievements_count": 684,
+    "parent_achievements_count": 49,
+    "reddit_url": "https://www.reddit.com/r/thewitcher3/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 8646,
+    "twitch_count": 106,
+    "youtube_count": 1000000,
+    "reviews_text_count": 117,
+    "ratings_count": 7116,
+    "suggestions_count": 688,
+    "alternative_names": [
+      "Wiedźmin 3: Dziki Gon",
+      "Ведьмак 3",
+      "Ведьмак 3: Дикая Охота"
+    ],
+    "metacritic_url": "https://www.metacritic.com/game/playstation-4/the-witcher-3-wild-hunt",
+    "parents_count": 0,
+    "additions_count": 3,
+    "game_series_count": 9,
+    "user_game": null,
+    "reviews_count": 7233,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "Apple Macintosh",
+          "slug": "mac"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1403,
+          "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1210,
+          "image_background": "https://media.rawg.io/media/games/348/348640e78a7fcd4bb7dcad4fea014eeb.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "macOS",
+          "slug": "macos",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 107970,
+          "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2015-05-18",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 354780,
+        "url": "",
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 7131,
+          "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        }
+      },
+      {
+        "id": 3565,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 305376,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 312313,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 676022,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 9023,
+        "name": "CD PROJEKT RED",
+        "slug": "cd-projekt-red",
+        "games_count": 26,
+        "image_background": "https://media.rawg.io/media/screenshots/cec/cec3bfdf1bcd8e9d49eaece1b8239cf3.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Atmospheric",
+        "slug": "atmospheric",
+        "language": "eng",
+        "games_count": 39664,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      {
+        "id": 42,
+        "name": "Great Soundtrack",
+        "slug": "great-soundtrack",
+        "language": "eng",
+        "games_count": 3451,
+        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 118,
+        "name": "Story Rich",
+        "slug": "story-rich",
+        "language": "eng",
+        "games_count": 27230,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Open World",
+        "slug": "open-world",
+        "language": "eng",
+        "games_count": 9243,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 149,
+        "name": "Third Person",
+        "slug": "third-person",
+        "language": "eng",
+        "games_count": 14693,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Fantasy",
+        "slug": "fantasy",
+        "language": "eng",
+        "games_count": 32918,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Sandbox",
+        "slug": "sandbox",
+        "language": "eng",
+        "games_count": 8498,
+        "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Action RPG",
+        "slug": "action-rpg",
+        "language": "eng",
+        "games_count": 8679,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      {
+        "id": 41,
+        "name": "Dark",
+        "slug": "dark",
+        "language": "eng",
+        "games_count": 18690,
+        "image_background": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg"
+      },
+      {
+        "id": 44,
+        "name": "Nudity",
+        "slug": "nudity",
+        "language": "eng",
+        "games_count": 8836,
+        "image_background": "https://media.rawg.io/media/games/bee/bee483efadcf9d7e657e52184316a34e.jpg"
+      },
+      {
+        "id": 336,
+        "name": "controller support",
+        "slug": "controller-support",
+        "language": "eng",
+        "games_count": 293,
+        "image_background": "https://media.rawg.io/media/screenshots/2fc/2fc6994425146f9dba3133400b414e29.jpg"
+      },
+      {
+        "id": 145,
+        "name": "Choices Matter",
+        "slug": "choices-matter",
+        "language": "eng",
+        "games_count": 8337,
+        "image_background": "https://media.rawg.io/media/games/dc0/dc0926d3f84ffbcc00968fe8a6f0aed3.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Dark Fantasy",
+        "slug": "dark-fantasy",
+        "language": "eng",
+        "games_count": 5663,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      },
+      {
+        "id": 192,
+        "name": "Mature",
+        "slug": "mature",
+        "language": "eng",
+        "games_count": 4773,
+        "image_background": "https://media.rawg.io/media/games/8d6/8d69eb6c32ed6acfd75f82d532144993.jpg"
+      },
+      {
+        "id": 66,
+        "name": "Medieval",
+        "slug": "medieval",
+        "language": "eng",
+        "games_count": 8054,
+        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+      },
+      {
+        "id": 82,
+        "name": "Magic",
+        "slug": "magic",
+        "language": "eng",
+        "games_count": 11330,
+        "image_background": "https://media.rawg.io/media/games/886/8868f9ea0c91d45316319ebf5dd4fc64.jpg"
+      },
+      {
+        "id": 218,
+        "name": "Multiple Endings",
+        "slug": "multiple-endings",
+        "language": "eng",
+        "games_count": 11543,
+        "image_background": "https://media.rawg.io/media/games/1aa/1aaf454e0d3809ba1c34df4514492237.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 7411,
+        "name": "CD PROJEKT RED",
+        "slug": "cd-projekt-red",
+        "games_count": 29,
+        "image_background": "https://media.rawg.io/media/screenshots/41a/41a49d52099d71ba9cd9fdcda144c820.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "The third game in a series, it holds nothing back from the player. Open world adventures of the renowned monster slayer Geralt of Rivia are now even on a larger scale. Following the source material more accurately, this time Geralt is trying to find the child of the prophecy, Ciri while making a quick coin from various contracts on the side. Great attention to the world building above all creates an immersive story, where your decisions will shape the world around you.\n\nCD Project Red are infamous for the amount of work they put into their games, and it shows, because aside from classic third-person action RPG base game they provided 2 massive DLCs with unique questlines and 16 smaller DLCs, containing extra quests and items.\n\nPlayers praise the game for its atmosphere and a wide open world that finds the balance between fantasy elements and realistic and believable mechanics, and the game deserved numerous awards for every aspect of the game, from music to direction."
+  },
   "3456": {
     "id": 3456,
     "slug": "joe-danger-2-the-movie",
@@ -3146,6 +4199,379 @@
     "clip": null,
     "description_raw": "Rockstar Games went bigger, since their previous installment of the series. You get the complicated and realistic world-building from Liberty City of GTA4 in the setting of lively and diverse Los Santos, from an old fan favorite GTA San Andreas. 561 different vehicles (including every transport you can operate) and the amount is rising with every update. \nSimultaneous storytelling from three unique perspectives: \nFollow Michael, ex-criminal living his life of leisure away from the past, Franklin, a kid that seeks the better future, and Trevor, the exact past Michael is trying to run away from. \nGTA Online will provide a lot of additional challenge even for the experienced players, coming fresh from the story mode. Now you will have other players around that can help you just as likely as ruin your mission. Every GTA mechanic up to date can be experienced by players through the unique customizable character, and community content paired with the leveling system tends to keep everyone busy and engaged.\n\nEspañol\nRockstar Games se hizo más grande desde su entrega anterior de la serie. Obtienes la construcción del mundo complicada y realista de Liberty City de GTA4 en el escenario de Los Santos, un viejo favorito de los fans, GTA San Andreas. 561 vehículos diferentes (incluidos todos los transportes que puede operar) y la cantidad aumenta con cada actualización.\nNarración simultánea desde tres perspectivas únicas:\nSigue a Michael, ex-criminal que vive su vida de ocio lejos del pasado, Franklin, un niño que busca un futuro mejor, y Trevor, el pasado exacto del que Michael está tratando de huir.\nGTA Online proporcionará muchos desafíos adicionales incluso para los jugadores experimentados, recién llegados del modo historia. Ahora tendrás otros jugadores cerca que pueden ayudarte con la misma probabilidad que arruinar tu misión. Los jugadores pueden experimentar todas las mecánicas de GTA actualizadas a través del personaje personalizable único, y el contenido de la comunidad combinado con el sistema de nivelación tiende a mantener a todos ocupados y comprometidos."
   },
+  "4179": {
+    "id": 4179,
+    "slug": "darksiders-ii",
+    "name": "Darksiders II",
+    "name_original": "Darksiders II",
+    "description": "<p>Darksiders II is a third person slasher/RPG, the second installment in the Darksiders series. The game shares many similarities with its predecessor, but also exhibits new features such as an open world, overhauled quest system and dialogues.<br />\nThe main character is the second Rider of Apocalypse, Death, out on a quest to support previous game’s protagonist, War, and to restore what has been lost by the world. The key features of the series, the extensive combat system, and various riddles have also seen significant improvements. RPG elements exist in the form of leveling up your protagonist and acquiring new skills for both combat and battle support. The game also features an immersive soundtrack, which will accompany the players throughout every location and battle.<br />\nDarksiders II has implemented many traits common to third-person RPGs of the time, but it still manages to be outstanding with its unique design of locations and enemies, a more realistic combat system and other overhauls of the game mechanics, all resulting in a refined experience for any player.</p>",
+    "metacritic": 83,
+    "metacritic_platforms": [
+      {
+        "metascore": 83,
+        "url": "https://www.metacritic.com/game/xbox-360/darksiders-ii",
+        "platform": {
+          "platform": 14,
+          "name": "Xbox 360",
+          "slug": "xbox360"
+        }
+      },
+      {
+        "metascore": 85,
+        "url": "https://www.metacritic.com/game/wii-u/darksiders-ii",
+        "platform": {
+          "platform": 10,
+          "name": "Wii U",
+          "slug": "wii-u"
+        }
+      },
+      {
+        "metascore": 84,
+        "url": "https://www.metacritic.com/game/playstation-3/darksiders-ii",
+        "platform": {
+          "platform": 16,
+          "name": "PlayStation 3",
+          "slug": "playstation3"
+        }
+      },
+      {
+        "metascore": 81,
+        "url": "https://www.metacritic.com/game/pc/darksiders-ii",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      }
+    ],
+    "released": "2012-08-14",
+    "tba": false,
+    "updated": "2025-12-27T19:00:50",
+    "background_image": "https://media.rawg.io/media/games/848/8482235332f4518da363c3cb4e5cd075.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/237/2374e8b610ccf0b7d670f089e20556c1.jpg",
+    "website": "http://www.darksiders.com/",
+    "rating": 3.74,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 505,
+        "percent": 51.85
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 233,
+        "percent": 23.92
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 171,
+        "percent": 17.56
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 65,
+        "percent": 6.67
+      }
+    ],
+    "reactions": {
+      "7": 1,
+      "9": 1,
+      "10": 1
+    },
+    "added": 5330,
+    "added_by_status": {
+      "yet": 255,
+      "owned": 3933,
+      "beaten": 610,
+      "toplay": 84,
+      "dropped": 428,
+      "playing": 20
+    },
+    "playtime": 5,
+    "screenshots_count": 124,
+    "movies_count": 0,
+    "creators_count": 6,
+    "achievements_count": 126,
+    "parent_achievements_count": 14,
+    "reddit_url": "https://www.reddit.com/r/Darksiders",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 3862,
+    "twitch_count": 115,
+    "youtube_count": 1000000,
+    "reviews_text_count": 2,
+    "ratings_count": 972,
+    "suggestions_count": 717,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/pc/darksiders-ii",
+    "parents_count": 0,
+    "additions_count": 1,
+    "game_series_count": 5,
+    "user_game": null,
+    "reviews_count": 974,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2012-08-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 10,
+          "name": "Wii U",
+          "slug": "wii-u",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 1114,
+          "image_background": "https://media.rawg.io/media/games/cc1/cc196a5ad763955d6532cdba236f730c.jpg"
+        },
+        "released_at": "2012-08-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 16,
+          "name": "PlayStation 3",
+          "slug": "playstation3",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 3164,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        },
+        "released_at": "2012-08-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2012-08-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 14,
+          "name": "Xbox 360",
+          "slug": "xbox360",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 2807,
+          "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+        },
+        "released_at": "2012-08-14",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 4504,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 28378,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      },
+      {
+        "id": 33626,
+        "url": "",
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1915,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 84,
+        "name": "THQ Nordic",
+        "slug": "thq-nordic",
+        "games_count": 67,
+        "image_background": "https://media.rawg.io/media/screenshots/9db/9db5d5ae17b26e26174d289e2654ed60.jpg"
+      },
+      {
+        "id": 4461,
+        "name": "Vigil Games",
+        "slug": "vigil-games",
+        "games_count": 9,
+        "image_background": "https://media.rawg.io/media/games/1f1/1f1888e1308959dfd3be4c144a81d19c.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 70,
+        "name": "War",
+        "slug": "war",
+        "language": "eng",
+        "games_count": 10095,
+        "image_background": "https://media.rawg.io/media/games/03d/03d17d237f9541b67a13f9425ced4ca4.jpg"
+      },
+      {
+        "id": 1465,
+        "name": "combat",
+        "slug": "combat",
+        "language": "eng",
+        "games_count": 16354,
+        "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+      },
+      {
+        "id": 981,
+        "name": "battle",
+        "slug": "battle",
+        "language": "eng",
+        "games_count": 10703,
+        "image_background": "https://media.rawg.io/media/games/370/370a4cbcfa75e5238ee8f74bf323694d.jpg"
+      },
+      {
+        "id": 808,
+        "name": "character",
+        "slug": "character",
+        "language": "eng",
+        "games_count": 8884,
+        "image_background": "https://media.rawg.io/media/games/827/8276bc29cdc27752e27802b94aea255e.jpg"
+      },
+      {
+        "id": 295,
+        "name": "Soundtrack",
+        "slug": "soundtrack",
+        "language": "eng",
+        "games_count": 3292,
+        "image_background": "https://media.rawg.io/media/screenshots/0d3/0d3b915b3daf1aa6babaaa16301a155e.jpeg"
+      },
+      {
+        "id": 974,
+        "name": "death",
+        "slug": "death",
+        "language": "eng",
+        "games_count": 3807,
+        "image_background": "https://media.rawg.io/media/games/f61/f61cc8e0bce08615d90918e428aa5dc9.jpg"
+      },
+      {
+        "id": 1454,
+        "name": "quest",
+        "slug": "quest",
+        "language": "eng",
+        "games_count": 761,
+        "image_background": "https://media.rawg.io/media/screenshots/3c4/3c492d58f5082a1fb5efca8bfd2be940.jpg"
+      },
+      {
+        "id": 1396,
+        "name": "apocalypse",
+        "slug": "apocalypse",
+        "language": "eng",
+        "games_count": 720,
+        "image_background": "https://media.rawg.io/media/screenshots/18f/18fa53110fb83967c3510a6f4a4541ae.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 6062,
+        "name": "THQ",
+        "slug": "thq",
+        "games_count": 501,
+        "image_background": "https://media.rawg.io/media/games/8ae/8aeb9db0a0f6077b08a5bc9975904003.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "Darksiders II is a third person slasher/RPG, the second installment in the Darksiders series. The game shares many similarities with its predecessor, but also exhibits new features such as an open world, overhauled quest system and dialogues.\nThe main character is the second Rider of Apocalypse, Death, out on a quest to support previous game’s protagonist, War, and to restore what has been lost by the world. The key features of the series, the extensive combat system, and various riddles have also seen significant improvements. RPG elements exist in the form of leveling up your protagonist and acquiring new skills for both combat and battle support. The game also features an immersive soundtrack, which will accompany the players throughout every location and battle.\nDarksiders II has implemented many traits common to third-person RPGs of the time, but it still manages to be outstanding with its unique design of locations and enemies, a more realistic combat system and other overhauls of the game mechanics, all resulting in a refined experience for any player."
+  },
   "4186": {
     "id": 4186,
     "slug": "persona-4-golden",
@@ -3682,6 +5108,446 @@
     },
     "clip": null,
     "description_raw": "Persona 4 Golden is the jRPG and the remake of the Persona 4, released four years after the original. This is the fifth part of Persona series which is at the same time a sub-series to an even bigger franchise called Shin Megami Tensei. The remake is released exclusively for PS Vita handheld. \n\n###Gameplay\nThere is a similar pattern to all Persona games: the gameplay is divided into the usual school life and the underworld dungeon crawler part. During the first sections of the game, the player controls the protagonist and examines the city, transits between location and forms Social Links with the other students. The underworld part includes distorted location from the common life which the protagonist must explore with his squad. During the exploration, there are multiple random encounters and boss battles involved. \n \n###Story\nThe story takes place in Inaba — fictional city. The main characters explore the serious of murders bizarrely to find out, what happened and who is behind those killings. During their investigations, the team comes across a unique ability to summon their inner selves called personas.\n\n###Golden version\nThe new character —Marie with the individual story arc was added into the expanded version as well as an internet connection allowing one to get help in the battles. Also, minor improvements were introduced into anime videos and lines in the game."
+  },
+  "4502": {
+    "id": 4502,
+    "slug": "darksiders",
+    "name": "Darksiders",
+    "name_original": "Darksiders",
+    "description": "<p>In Darksiders, you play as War - one of the Four Horsemen Of The Apocalypse. Two kingdoms, Heaven and Hell, could never solve their disagreements and battled each other from the beginning of time. &quot;The Charred Council&quot; arose in between two sides forming the brotherhood of Four Horsemen - War, Death, Strife and Fury. With these for horsemen on the watch and all the conflicts end, humanity has been born - a &quot;Kingdom of Man&quot;. Council has created Seven Seals, that must be broken, when &quot;The Kingdom of Man&quot; will be ready for an Endwar. When our protagonist, War arrives on Earth, he sees that the final battle between Good and Evil already emerged without breaking Seven Seals. After fighting a demon called Straga, he is summoned by the council. It accuses him of destroying the balance, and that now the Apocalypse is unstoppable. Convincing the council in his innocence, War now has to stop the Endwar.</p>\n<p>Darksiders is a typical hack-and-slash game that lets you produce comboes with two primary weapons - Chaoseater and Scythe - and various gadgets. While defeating his enemies, War can execute them with brutality. The gameplay is undertoned with dark mythology bound with the present days.</p>",
+    "metacritic": 83,
+    "metacritic_platforms": [],
+    "released": "2010-01-05",
+    "tba": false,
+    "updated": "2025-12-30T14:09:27",
+    "background_image": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/0c0/0c087c5a1918188e1812b71ca39babaa.jpg",
+    "website": "http://www.darksiders.com",
+    "rating": 3.76,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 701,
+        "percent": 57.74
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 236,
+        "percent": 19.44
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 195,
+        "percent": 16.06
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 82,
+        "percent": 6.75
+      }
+    ],
+    "reactions": {
+      "4": 1,
+      "9": 2
+    },
+    "added": 8053,
+    "added_by_status": {
+      "yet": 363,
+      "owned": 6100,
+      "beaten": 1011,
+      "toplay": 116,
+      "dropped": 434,
+      "playing": 29
+    },
+    "playtime": 3,
+    "screenshots_count": 24,
+    "movies_count": 0,
+    "creators_count": 9,
+    "achievements_count": 199,
+    "parent_achievements_count": 40,
+    "reddit_url": "https://www.reddit.com/r/Darksiders",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 3887,
+    "twitch_count": 127,
+    "youtube_count": 1000000,
+    "reviews_text_count": 4,
+    "ratings_count": 1210,
+    "suggestions_count": 680,
+    "alternative_names": [
+      "Darksiders: Wrath of War"
+    ],
+    "metacritic_url": "",
+    "parents_count": 0,
+    "additions_count": 3,
+    "game_series_count": 5,
+    "user_game": null,
+    "reviews_count": 1214,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2010-01-05",
+        "requirements": {
+          "minimum": "Minimum:\nOS: Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c\nProcessor: AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better\nMemory: 1GB XP, 2GB Vista / Windows 7\nHard Disk Space: 12GB\nVideo Card: NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )\n",
+          "recommended": "Recommended:\nOS: Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c\nProcessor: AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz\nMemory: 2GB XP, 3GB Vista / Windows 7\nHard Disk Space: 12GB\nVideo Card: NVIDIA (GeForce GTS 240) 256MB graphics card or better, ATI Radeon HD3870 256MB graphics card or better ( must support pixel shader 3 )\n"
+        }
+      },
+      {
+        "platform": {
+          "id": 16,
+          "name": "PlayStation 3",
+          "slug": "playstation3",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 3164,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        },
+        "released_at": "2010-01-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2010-01-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 14,
+          "name": "Xbox 360",
+          "slug": "xbox360",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 2807,
+          "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+        },
+        "released_at": "2010-01-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2010-01-05",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 467008,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 4830,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 17475,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 33713,
+        "url": "",
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1915,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 14787,
+        "name": "THQ",
+        "slug": "thq",
+        "games_count": 36,
+        "image_background": "https://media.rawg.io/media/screenshots/833/833fbf272ea5cb996ffe992d2dc2f851.jpg"
+      },
+      {
+        "id": 4461,
+        "name": "Vigil Games",
+        "slug": "vigil-games",
+        "games_count": 9,
+        "image_background": "https://media.rawg.io/media/games/1f1/1f1888e1308959dfd3be4c144a81d19c.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 40849,
+        "name": "Steam Cloud",
+        "slug": "steam-cloud",
+        "language": "eng",
+        "games_count": 25679,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Open World",
+        "slug": "open-world",
+        "language": "eng",
+        "games_count": 9243,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 149,
+        "name": "Third Person",
+        "slug": "third-person",
+        "language": "eng",
+        "games_count": 14693,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      },
+      {
+        "id": 40845,
+        "name": "Partial Controller Support",
+        "slug": "partial-controller-support",
+        "language": "eng",
+        "games_count": 13980,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Fantasy",
+        "slug": "fantasy",
+        "language": "eng",
+        "games_count": 32918,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Gore",
+        "slug": "gore",
+        "language": "eng",
+        "games_count": 6658,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      },
+      {
+        "id": 69,
+        "name": "Action-Adventure",
+        "slug": "action-adventure",
+        "language": "eng",
+        "games_count": 20986,
+        "image_background": "https://media.rawg.io/media/games/baf/baf9905270314e07e6850cffdb51df41.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Action RPG",
+        "slug": "action-rpg",
+        "language": "eng",
+        "games_count": 8679,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      {
+        "id": 115,
+        "name": "Controller",
+        "slug": "controller",
+        "language": "eng",
+        "games_count": 15005,
+        "image_background": "https://media.rawg.io/media/games/b6b/b6b20bfc4b34e312dbc8aac53c95a348.jpg"
+      },
+      {
+        "id": 68,
+        "name": "Hack and Slash",
+        "slug": "hack-and-slash",
+        "language": "eng",
+        "games_count": 5338,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      {
+        "id": 43,
+        "name": "Post-apocalyptic",
+        "slug": "post-apocalyptic",
+        "language": "eng",
+        "games_count": 4929,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      },
+      {
+        "id": 203,
+        "name": "Beat 'em up",
+        "slug": "beat-em-up",
+        "language": "eng",
+        "games_count": 3562,
+        "image_background": "https://media.rawg.io/media/games/416/4164ca654a339af5be8e63cc9c480c70.jpg"
+      },
+      {
+        "id": 259,
+        "name": "Metroidvania",
+        "slug": "metroidvania",
+        "language": "eng",
+        "games_count": 4715,
+        "image_background": "https://media.rawg.io/media/games/f90/f90ee1a4239247a822771c40488e68c5.jpg"
+      },
+      {
+        "id": 229,
+        "name": "3D Platformer",
+        "slug": "3d-platformer",
+        "language": "eng",
+        "games_count": 12206,
+        "image_background": "https://media.rawg.io/media/games/4f5/4f57124f7c0285150626cd1411c45b6e.jpg"
+      },
+      {
+        "id": 304,
+        "name": "Character Action Game",
+        "slug": "character-action-game",
+        "language": "eng",
+        "games_count": 641,
+        "image_background": "https://media.rawg.io/media/screenshots/44e/44e2afb0c846b0c9e1f9d3a0fc8020b6.jpg"
+      },
+      {
+        "id": 254,
+        "name": "Spectacle fighter",
+        "slug": "spectacle-fighter",
+        "language": "eng",
+        "games_count": 840,
+        "image_background": "https://media.rawg.io/media/games/372/3724c266c9d028a6cff791dd8df4b98e.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 1283,
+        "name": "THQ Nordic",
+        "slug": "thq-nordic",
+        "games_count": 244,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      },
+      {
+        "id": 6062,
+        "name": "THQ",
+        "slug": "thq",
+        "games_count": 501,
+        "image_background": "https://media.rawg.io/media/games/8ae/8aeb9db0a0f6077b08a5bc9975904003.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "In Darksiders, you play as War - one of the Four Horsemen Of The Apocalypse. Two kingdoms, Heaven and Hell, could never solve their disagreements and battled each other from the beginning of time. \"The Charred Council\" arose in between two sides forming the brotherhood of Four Horsemen - War, Death, Strife and Fury. With these for horsemen on the watch and all the conflicts end, humanity has been born - a \"Kingdom of Man\". Council has created Seven Seals, that must be broken, when \"The Kingdom of Man\" will be ready for an Endwar. When our protagonist, War arrives on Earth, he sees that the final battle between Good and Evil already emerged without breaking Seven Seals. After fighting a demon called Straga, he is summoned by the council. It accuses him of destroying the balance, and that now the Apocalypse is unstoppable. Convincing the council in his innocence, War now has to stop the Endwar.\r\n\r\nDarksiders is a typical hack-and-slash game that lets you produce comboes with two primary weapons - Chaoseater and Scythe - and various gadgets. While defeating his enemies, War can execute them with brutality. The gameplay is undertoned with dark mythology bound with the present days."
   },
   "6789": {
     "id": 6789,
@@ -6145,6 +8011,343 @@
     "clip": null,
     "description_raw": "One of the most popular games of the 2010s, Minecraft allows you to rebuild the environment around you. The world of the game is open, infinitely wide, and procedurally generated. It is composed of small 3D cubes that represent specific types of materials or terrain. The gameplay is centered on mining and building various structures of your choice. You can also craft items like tools, weapons, and armor. There's an option to shift to the first or the third person view.\nMinecraft includes multiple modes that dramatically change the focus of the game. Survival and Adventure modes require the player to gather resources, hunt for food and fight monsters to survive. In the Hardcore mode, there’s even permanent death. Creative mode, by contrast, offers you to freely explore the world and construct whatever you want with unlimited resources. There’s also a multiplayer mode that allows the players to share their worlds and engage in the traditional MMO activities, such as player-vs-player combat.\nMinecraft’s crude visual style, reminiscent of Lego cubes, became an iconic part of the popular culture. There are many myths and fan fiction surrounding the game, such as the legend of Herobrine, a rumored character that officially doesn’t exist."
   },
+  "28568": {
+    "id": 28568,
+    "slug": "assassins-creed-ii",
+    "name": "Assassin's Creed II",
+    "name_original": "Assassin's Creed II",
+    "description": "<p>Assassin&#39;s Creed II is the second installment in the AC series, the center of which is stealths kills, exploring the world and enemy encounters. It is the straight sequel to the first part of the series and the beginning of the Ezio — the protagonist — trilogy, followed by &#39;Brotherhood&#39; and &#39;Revelation.&#39;<br />\nThe events take place in Rome, during the Italian Renaissance (1476-1499), we play as Ezio Auditore and are fighting against Knight Templar, being the Assassins. At the same time, all of the installments within a series are connected with each other by the Desmond storyline: all of the enchanted worlds he travels to are just simulations achieved through using &quot;Animus&quot; — a particular device which gets in the DNA and allows its user to drive around their memories. <br />\nThe game involves following mechanics — presuming the player to chase around some target, not moving to close, but not getting far at the same time; exploring quests — the heart of movement mechanics is parkour, and fighting — hero&#39;s arsenal involves swords, spears, and other melee weapons as well as ranged ones: bows, crossbows, and javelins.</p>",
+    "metacritic": 89,
+    "metacritic_platforms": [
+      {
+        "metascore": 86,
+        "url": "https://www.metacritic.com/game/pc/assassins-creed-ii",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "metascore": 91,
+        "url": "https://www.metacritic.com/game/playstation-3/assassins-creed-ii",
+        "platform": {
+          "platform": 16,
+          "name": "PlayStation 3",
+          "slug": "playstation3"
+        }
+      },
+      {
+        "metascore": 90,
+        "url": "https://www.metacritic.com/game/xbox-360/assassins-creed-ii",
+        "platform": {
+          "platform": 14,
+          "name": "Xbox 360",
+          "slug": "xbox360"
+        }
+      }
+    ],
+    "released": "2009-11-17",
+    "tba": false,
+    "updated": "2026-01-13T10:53:49",
+    "background_image": "https://media.rawg.io/media/games/1be/1bed7fae69d1004c09dfe1101d5a3a94.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/f02/f024ef0574a97781ffd4bea54c9df22a.jpg",
+    "website": "http://assassinscreed.uk.ubi.com/assassins-creed-2/#/home",
+    "rating": 4.42,
+    "rating_top": 5,
+    "ratings": [
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 1630,
+        "percent": 54.97
+      },
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 1094,
+        "percent": 36.9
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 174,
+        "percent": 5.87
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 67,
+        "percent": 2.26
+      }
+    ],
+    "reactions": {
+      "1": 7,
+      "3": 5,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 3,
+      "10": 5,
+      "11": 6,
+      "12": 7,
+      "19": 2,
+      "20": 1
+    },
+    "added": 8153,
+    "added_by_status": {
+      "yet": 231,
+      "owned": 3676,
+      "beaten": 3622,
+      "toplay": 178,
+      "dropped": 395,
+      "playing": 51
+    },
+    "playtime": 14,
+    "screenshots_count": 162,
+    "movies_count": 0,
+    "creators_count": 15,
+    "achievements_count": 152,
+    "parent_achievements_count": 51,
+    "reddit_url": "https://www.reddit.com/r/assassinscreed/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 4045,
+    "twitch_count": 164,
+    "youtube_count": 1000000,
+    "reviews_text_count": 25,
+    "ratings_count": 2940,
+    "suggestions_count": 639,
+    "alternative_names": [
+      "AC2",
+      "Assassin's Creed 2",
+      "Assassin's Creed 2: Special Edition",
+      "Assassin's Creed II: Special Edition"
+    ],
+    "metacritic_url": "https://www.metacritic.com/game/playstation-3/assassins-creed-ii",
+    "parents_count": 0,
+    "additions_count": 5,
+    "game_series_count": 22,
+    "user_game": null,
+    "reviews_count": 2965,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "Apple Macintosh",
+          "slug": "mac"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "macOS",
+          "slug": "macos",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 107970,
+          "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 14,
+          "name": "Xbox 360",
+          "slug": "xbox360",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 2807,
+          "image_background": "https://media.rawg.io/media/games/c80/c80bcf321da44d69b18a06c04d942662.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 16,
+          "name": "PlayStation 3",
+          "slug": "playstation3",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 3164,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2009-11-17",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 390169,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 465886,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 33859,
+        "url": "",
+        "store": {
+          "id": 7,
+          "name": "Xbox 360 Store",
+          "slug": "xbox360",
+          "domain": "marketplace.xbox.com",
+          "games_count": 1915,
+          "image_background": "https://media.rawg.io/media/games/bc0/bc06a29ceac58652b684deefe7d56099.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 3709,
+        "name": "Ubisoft Montreal",
+        "slug": "ubisoft-montreal",
+        "games_count": 121,
+        "image_background": "https://media.rawg.io/media/games/99b/99b39612e864d6ddfdb2c407fd9010a1.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 278,
+        "name": "Assassin",
+        "slug": "assassin",
+        "language": "eng",
+        "games_count": 962,
+        "image_background": "https://media.rawg.io/media/games/0bc/0bcc108295a244b488d5c25f7d867220.jpg"
+      },
+      {
+        "id": 1309,
+        "name": "hero",
+        "slug": "hero",
+        "language": "eng",
+        "games_count": 4863,
+        "image_background": "https://media.rawg.io/media/games/bef/bef40c8ee09ad001c0f0b2cf0d07f20e.jpg"
+      },
+      {
+        "id": 835,
+        "name": "Swords",
+        "slug": "swords",
+        "language": "eng",
+        "games_count": 1461,
+        "image_background": "https://media.rawg.io/media/screenshots/86a/86a1ca92bee366c36e30aad87c0604ee.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 918,
+        "name": "Ubisoft Entertainment",
+        "slug": "ubisoft-entertainment",
+        "games_count": 1096,
+        "image_background": "https://media.rawg.io/media/games/193/19390fa5e75e9048b22c9a736cf9992f.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "Assassin's Creed II is the second installment in the AC series, the center of which is stealths kills, exploring the world and enemy encounters. It is the straight sequel to the first part of the series and the beginning of the Ezio — the protagonist — trilogy, followed by 'Brotherhood' and 'Revelation.'\nThe events take place in Rome, during the Italian Renaissance (1476-1499), we play as Ezio Auditore and are fighting against Knight Templar, being the Assassins. At the same time, all of the installments within a series are connected with each other by the Desmond storyline: all of the enchanted worlds he travels to are just simulations achieved through using \"Animus\" — a particular device which gets in the DNA and allows its user to drive around their memories. \nThe game involves following mechanics — presuming the player to chase around some target, not moving to close, but not getting far at the same time; exploring quests — the heart of movement mechanics is parkour, and fighting — hero's arsenal involves swords, spears, and other melee weapons as well as ranged ones: bows, crossbows, and javelins."
+  },
   "36013": {
     "id": 36013,
     "slug": "tony-hawks-underground-2",
@@ -7078,6 +9281,387 @@
     "clip": null,
     "description_raw": "Cyberpunk 2077 is a science fiction game loosely based on the role-playing game Cyberpunk 2020.\r\n\r\n###Setting\r\nThe game is set in the year 2077 in a fictional futuristic metropolis Night City in California. In the world of the game, there are developed cybernetic augmentations that enhance people's strength, agility, and memory. The city is governed by corporations. Many jobs are taken over by the robots, leaving a lot of people poor and homeless. Night City has a roaring underworld, with black markets, underground surgeons, drug dealers, and street gangs abound.\r\n\r\n###Characters\r\nThe main protagonist is fully customizable, including his or her sex and appearance, and goes by the nickname V. He or she is an underground mercenary who does “dirty business” for the various contractors. An NPC companion named Jackie joins the protagonist early at the game, and various other companions may join the player on certain missions as the plot demands. However, the game has no parties and no companion system.\r\n\r\n###Gameplay\r\nThe player controls V from the first person view, with the third-person view used for cutscenes only. The protagonist can travel across the city on feet or using various vehicles, in a manner some observers compared to GTA series. There are many options for the character customization, including three character classes, and a variety of augmentations V can install to enhance his or her abilities."
   },
+  "42215": {
+    "id": 42215,
+    "slug": "dying-light",
+    "name": "Dying Light",
+    "name_original": "Dying Light",
+    "description": "<p>Dying Light is a first-person action horror game with the elements of survival. It is a first part of the Dying light series followed by Dying Light 2. The game is set in the open-world environment of fictional Harran city. Players are offered to assume the role of an undercover agent Kyle Crane who has been sent in the quarantine zone. His mission is to find the rogue politician Kadir &quot;Rais&quot; Suleiman lost somewhere in the infected giant city. On the way to achieving the goal, Kyle will meet other survivors, who desperately try to stay alive among zombies. The chief game mechanic is running the generators and turning on streetlights throughout Harran to make another part of the map accessible and safe at nighttime. The game features day/night time cycles that change the game remarkably: the action becomes fast-paced, and all the infected people turn into dangerous zombies. Therefore, the gameplay is based on armed combat against mutants and Kyle’s sneak and parkour skill for preventing it.</p>",
+    "metacritic": 74,
+    "metacritic_platforms": [
+      {
+        "metascore": 74,
+        "url": "https://www.metacritic.com/game/xbox-one/dying-light",
+        "platform": {
+          "platform": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one"
+        }
+      },
+      {
+        "metascore": 75,
+        "url": "https://www.metacritic.com/game/pc/dying-light",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "metascore": 74,
+        "url": "https://www.metacritic.com/game/playstation-4/dying-light",
+        "platform": {
+          "platform": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4"
+        }
+      }
+    ],
+    "released": "2015-01-27",
+    "tba": false,
+    "updated": "2026-01-05T20:12:25",
+    "background_image": "https://media.rawg.io/media/games/4a5/4a5ce21f529cf8fd4670b4c3188b25df.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/f9e/f9eb987bacae01f62db39b8cf40c14a2.jpg",
+    "website": "http://dyinglightgame.com/",
+    "rating": 4.1,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 762,
+        "percent": 53.7
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 424,
+        "percent": 29.88
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 205,
+        "percent": 14.45
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 28,
+        "percent": 1.97
+      }
+    ],
+    "reactions": {
+      "1": 5,
+      "2": 1,
+      "3": 6,
+      "4": 3,
+      "5": 3,
+      "6": 1,
+      "7": 2,
+      "8": 4,
+      "9": 4,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "15": 1,
+      "16": 1
+    },
+    "added": 5006,
+    "added_by_status": {
+      "yet": 182,
+      "owned": 2846,
+      "beaten": 1294,
+      "toplay": 160,
+      "dropped": 435,
+      "playing": 89
+    },
+    "playtime": 22,
+    "screenshots_count": 42,
+    "movies_count": 0,
+    "creators_count": 9,
+    "achievements_count": 488,
+    "parent_achievements_count": 60,
+    "reddit_url": "https://www.reddit.com/r/dyinglight/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 4069,
+    "twitch_count": 121,
+    "youtube_count": 1000000,
+    "reviews_text_count": 23,
+    "ratings_count": 1396,
+    "suggestions_count": 699,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/playstation-4/dying-light",
+    "parents_count": 0,
+    "additions_count": 5,
+    "game_series_count": 1,
+    "user_game": null,
+    "reviews_count": 1419,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2015-01-27",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2015-01-27",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2015-01-27",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2015-01-27",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 39682,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 36968,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 279428,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 665009,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 4303,
+        "name": "Techland",
+        "slug": "techland",
+        "games_count": 52,
+        "image_background": "https://media.rawg.io/media/games/92d/92d0afe47942bd1d31ebed3fc9387e52.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 151557,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 16,
+        "name": "Horror",
+        "slug": "horror",
+        "language": "eng",
+        "games_count": 49127,
+        "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+      },
+      {
+        "id": 1,
+        "name": "Survival",
+        "slug": "survival",
+        "language": "eng",
+        "games_count": 10815,
+        "image_background": "https://media.rawg.io/media/games/18c/18ca24ed4b700668c36b11ebc35f3d23.jpg"
+      },
+      {
+        "id": 63,
+        "name": "Zombies",
+        "slug": "zombies",
+        "language": "eng",
+        "games_count": 11205,
+        "image_background": "https://media.rawg.io/media/games/806/8060a7663364ac23e15480728938d6f3.jpg"
+      },
+      {
+        "id": 188,
+        "name": "Parkour",
+        "slug": "parkour",
+        "language": "eng",
+        "games_count": 4102,
+        "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+      },
+      {
+        "id": 2030,
+        "name": "city",
+        "slug": "city",
+        "language": "eng",
+        "games_count": 9282,
+        "image_background": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg"
+      },
+      {
+        "id": 1484,
+        "name": "skill",
+        "slug": "skill",
+        "language": "eng",
+        "games_count": 3533,
+        "image_background": "https://media.rawg.io/media/screenshots/ec6/ec6eda0d3d08d023793486b253534c27.jpg"
+      },
+      {
+        "id": 1652,
+        "name": "night",
+        "slug": "night",
+        "language": "eng",
+        "games_count": 4496,
+        "image_background": "https://media.rawg.io/media/games/2ee/2eeed8524931b4fae1e4a40d0e5443b5.jpg"
+      },
+      {
+        "id": 1079,
+        "name": "environment",
+        "slug": "environment",
+        "language": "eng",
+        "games_count": 7129,
+        "image_background": "https://media.rawg.io/media/screenshots/97a/97ab26a9d092783e68190dc686916b0b.jpg"
+      },
+      {
+        "id": 3116,
+        "name": "fast",
+        "slug": "fast",
+        "language": "eng",
+        "games_count": 2164,
+        "image_background": "https://media.rawg.io/media/screenshots/697/69786b2a70b3c4628bd73b83a8fc8735.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 350,
+        "name": "Warner Bros. Interactive",
+        "slug": "warner-bros-interactive",
+        "games_count": 217,
+        "image_background": "https://media.rawg.io/media/games/a87/a8743bdee8627c55bb9f2f01b9136ac1.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "Dying Light is a first-person action horror game with the elements of survival. It is a first part of the Dying light series followed by Dying Light 2. The game is set in the open-world environment of fictional Harran city. Players are offered to assume the role of an undercover agent Kyle Crane who has been sent in the quarantine zone. His mission is to find the rogue politician Kadir \"Rais\" Suleiman lost somewhere in the infected giant city. On the way to achieving the goal, Kyle will meet other survivors, who desperately try to stay alive among zombies. The chief game mechanic is running the generators and turning on streetlights throughout Harran to make another part of the map accessible and safe at nighttime. The game features day/night time cycles that change the game remarkably: the action becomes fast-paced, and all the infected people turn into dangerous zombies. Therefore, the gameplay is based on armed combat against mutants and Kyle’s sneak and parkour skill for preventing it."
+  },
   "57668": {
     "id": 57668,
     "slug": "revelations-persona",
@@ -7281,6 +9865,491 @@
     },
     "clip": null,
     "description_raw": "Revelations: Persona is a role-playing video game developed and published by Atlus. It is the first entry in the Persona series, itself a subseries of the Megami Tensei franchise, and the first role-playing entry in the series to be released in the west. Originally released for the PlayStation in 1996 in Japan and North America, the title was ported to Microsoft Windows in 1999. A port to the PlayStation Portable retitled Shin Megami Tensei: Persona was released in North America and Japan in 2009, and the following year in Europe. This port featured new cutscenes and a reworked English localization.\nThe story focuses on a group of high school students as they are confronted by a series of supernatural incidents. After playing a fortune-telling game, the group each gain the ability to summon Personas, the multiple selves within them. Using this power under the guidance of Philemon, a benevolent being representing humanity's subconscious, the group face off against multiple forces that threaten the world. Gameplay revolves around the characters navigating environments around their town and fighting enemies using their Personas. During the course of the game, the player can create new Personas for battle using spell cards gained in battle or by talking with enemies.\nPersona began development after the release of Shin Megami Tensei If..., with the idea of creating a subseries around the positively received high school setting of If.... Multiple staff members from previous Megami Tensei titles were involved in development, including character designer Kazuma Kaneko, and director Kouji Okada. Multiple aspects of the story, including Personas and the character Philemon, were taken from Jungian psychology, while Kaneko's character designs were based on both staff members, and celebrities and fictional characters of the time. Reception to the game has generally been positive, with most praising its approach to the genre, while its navigation and localization were criticized. Its PSP port shared most points of praise with the original, along with the improved localization, but also drew negative comments for its by-then dated mechanics and graphics."
+  },
+  "58616": {
+    "id": 58616,
+    "slug": "assassins-creed-odyssey",
+    "name": "Assassin's Creed Odyssey",
+    "name_original": "Assassin's Creed Odyssey",
+    "description": "<p>Assassin&#39;s Creed Odyssey is the twentieth game in its series. It is the earliest game in the Assassin&#39;s Creed universe chronology and the prequel to Assassin&#39;s Creed Origins.</p>\n<h3>Plot</h3>\n<p>The events of Assassin&#39;s Creed Odyssey&#39;s take place in the Classical Era of Ancient Greece, in 431 BC, before the Brotherhood of Assassins was even formed. The plot follows a fictionalized story of the Peloponnesian War between city-states of Sparta and Athens that left Greece devastated. The player can choose to control either a male (named Alexios) or female (named Kassandra) protagonist, both of them being descendants of the famous Spartan king Leonidas. The player enters the plot as a mercenary and can side with either Athens or its rival Sparta. There&#39;s also the frame story set in the contemporary age. Its protagonist is Layla Hassan, who was also the main character in the frame story of Assassin&#39;s Creed Origins.</p>\n<h3>Gameplay</h3>\n<p>Unlike most earlier installments of Assassin&#39;s Creed, which put the emphasis solely on action, Odyssey has a strong role-playing element in it. Dialogue options and the non-linear plot allow the player to reach several alternate endings. The game also has a reputation system and multiple options for romancing, including same-sex romances. The combat system is similar to that in Origins with the addition of new skills. The game also reintroduces naval battles.</p>",
+    "metacritic": 85,
+    "metacritic_platforms": [
+      {
+        "metascore": 87,
+        "url": "https://www.metacritic.com/game/xbox-one/assassins-creed-odyssey",
+        "platform": {
+          "platform": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one"
+        }
+      },
+      {
+        "metascore": 83,
+        "url": "https://www.metacritic.com/game/playstation-4/assassins-creed-odyssey",
+        "platform": {
+          "platform": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4"
+        }
+      },
+      {
+        "metascore": 86,
+        "url": "https://www.metacritic.com/game/pc/assassins-creed-odyssey",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      }
+    ],
+    "released": "2018-10-05",
+    "tba": false,
+    "updated": "2026-01-02T12:44:05",
+    "background_image": "https://media.rawg.io/media/games/c6b/c6bd26767c1053fef2b10bb852943559.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/527/527b1e0a6398321265af29c179e7a172.jpg",
+    "website": "https://assassinscreed.ubisoft.com/game/en-us/home/",
+    "rating": 3.98,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 1028,
+        "percent": 48.33
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 639,
+        "percent": 30.04
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 349,
+        "percent": 16.41
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 111,
+        "percent": 5.22
+      }
+    ],
+    "reactions": {
+      "1": 6,
+      "2": 2,
+      "3": 7,
+      "4": 3,
+      "5": 2,
+      "6": 3,
+      "7": 4,
+      "9": 4,
+      "10": 2,
+      "11": 1,
+      "12": 1,
+      "15": 2,
+      "16": 2,
+      "17": 1,
+      "19": 1,
+      "21": 1
+    },
+    "added": 8204,
+    "added_by_status": {
+      "yet": 552,
+      "owned": 4473,
+      "beaten": 1501,
+      "toplay": 717,
+      "dropped": 586,
+      "playing": 375
+    },
+    "playtime": 31,
+    "screenshots_count": 17,
+    "movies_count": 0,
+    "creators_count": 5,
+    "achievements_count": 437,
+    "parent_achievements_count": 62,
+    "reddit_url": "https://www.reddit.com/r/assassinscreed/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 4072,
+    "twitch_count": 100,
+    "youtube_count": 1000000,
+    "reviews_text_count": 34,
+    "ratings_count": 2093,
+    "suggestions_count": 653,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/pc/assassins-creed-odyssey",
+    "parents_count": 0,
+    "additions_count": 3,
+    "game_series_count": 22,
+    "user_game": null,
+    "reviews_count": 2127,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2018-10-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2018-10-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2018-10-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2018-10-05",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 48930,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 355565,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      },
+      {
+        "id": 438098,
+        "url": "",
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 1432,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      },
+      {
+        "id": 49055,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 48950,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 405,
+        "name": "Ubisoft",
+        "slug": "ubisoft",
+        "games_count": 349,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 3709,
+        "name": "Ubisoft Montreal",
+        "slug": "ubisoft-montreal",
+        "games_count": 121,
+        "image_background": "https://media.rawg.io/media/games/99b/99b39612e864d6ddfdb2c407fd9010a1.jpg"
+      },
+      {
+        "id": 4115,
+        "name": "Ubisoft Montpellier",
+        "slug": "ubisoft-montpellier",
+        "games_count": 29,
+        "image_background": "https://media.rawg.io/media/games/853/853aa2b76ae85fcf2782ace58cf7479f.jpg"
+      },
+      {
+        "id": 13633,
+        "name": "Ubisoft Shanghai",
+        "slug": "ubisoft-shanghai-2",
+        "games_count": 26,
+        "image_background": "https://media.rawg.io/media/games/14b/14b232b342cadf8693e3ecaeaa2ae4d1.jpg"
+      },
+      {
+        "id": 4413,
+        "name": "Ubisoft Quebec",
+        "slug": "ubisoft-quebec",
+        "games_count": 25,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8ce952e6da1f517aa81cd451aecefad.jpg"
+      },
+      {
+        "id": 4112,
+        "name": "Ubisoft Bucharest",
+        "slug": "ubisoft-bucharest",
+        "games_count": 14,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd59f4d517cc2b802405a897d275a32.jpg"
+      },
+      {
+        "id": 18659,
+        "name": "Ubisoft Singapore",
+        "slug": "ubisoft-singapore",
+        "games_count": 7,
+        "image_background": "https://media.rawg.io/media/screenshots/b14/b14e5c72bf261d7bb4fc4e8fde136b9d.jpg"
+      },
+      {
+        "id": 6164,
+        "name": "Ubisoft Kiev",
+        "slug": "ubisoft-kiev",
+        "games_count": 7,
+        "image_background": "https://media.rawg.io/media/screenshots/08b/08b3e22bfee4955157c737e4116782c8.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Atmospheric",
+        "slug": "atmospheric",
+        "language": "eng",
+        "games_count": 39664,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      {
+        "id": 7808,
+        "name": "steam-trading-cards",
+        "slug": "steam-trading-cards",
+        "language": "eng",
+        "games_count": 7568,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 118,
+        "name": "Story Rich",
+        "slug": "story-rich",
+        "language": "eng",
+        "games_count": 27230,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Open World",
+        "slug": "open-world",
+        "language": "eng",
+        "games_count": 9243,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 149,
+        "name": "Third Person",
+        "slug": "third-person",
+        "language": "eng",
+        "games_count": 14693,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      },
+      {
+        "id": 40845,
+        "name": "Partial Controller Support",
+        "slug": "partial-controller-support",
+        "language": "eng",
+        "games_count": 13980,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 189,
+        "name": "Female Protagonist",
+        "slug": "female-protagonist",
+        "language": "eng",
+        "games_count": 15528,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Stealth",
+        "slug": "stealth",
+        "language": "eng",
+        "games_count": 7156,
+        "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+      },
+      {
+        "id": 40837,
+        "name": "In-App Purchases",
+        "slug": "in-app-purchases",
+        "language": "eng",
+        "games_count": 3409,
+        "image_background": "https://media.rawg.io/media/games/5f6/5f61441e6338e9221f96a8f4c64c7bb8.jpg"
+      },
+      {
+        "id": 40833,
+        "name": "Captions available",
+        "slug": "captions-available",
+        "language": "eng",
+        "games_count": 1483,
+        "image_background": "https://media.rawg.io/media/games/23b/23b69bfef2a1ce2e3dcdf1aa8ef1150b.jpg"
+      },
+      {
+        "id": 89,
+        "name": "Historical",
+        "slug": "historical",
+        "language": "eng",
+        "games_count": 3981,
+        "image_background": "https://media.rawg.io/media/games/d07/d0790809a13027251b6d0f4dc7538c58.jpg"
+      },
+      {
+        "id": 188,
+        "name": "Parkour",
+        "slug": "parkour",
+        "language": "eng",
+        "games_count": 4102,
+        "image_background": "https://media.rawg.io/media/games/fd7/fd794a9f0ffe816038d981b3acc3eec9.jpg"
+      },
+      {
+        "id": 278,
+        "name": "Assassin",
+        "slug": "assassin",
+        "language": "eng",
+        "games_count": 962,
+        "image_background": "https://media.rawg.io/media/games/0bc/0bcc108295a244b488d5c25f7d867220.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 918,
+        "name": "Ubisoft Entertainment",
+        "slug": "ubisoft-entertainment",
+        "games_count": 1096,
+        "image_background": "https://media.rawg.io/media/games/193/19390fa5e75e9048b22c9a736cf9992f.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "Assassin's Creed Odyssey is the twentieth game in its series. It is the earliest game in the Assassin's Creed universe chronology and the prequel to Assassin's Creed Origins.\n\n###Plot\nThe events of Assassin's Creed Odyssey's take place in the Classical Era of Ancient Greece, in 431 BC, before the Brotherhood of Assassins was even formed. The plot follows a fictionalized story of the Peloponnesian War between city-states of Sparta and Athens that left Greece devastated. The player can choose to control either a male (named Alexios) or female (named Kassandra) protagonist, both of them being descendants of the famous Spartan king Leonidas. The player enters the plot as a mercenary and can side with either Athens or its rival Sparta. There's also the frame story set in the contemporary age. Its protagonist is Layla Hassan, who was also the main character in the frame story of Assassin's Creed Origins.\n\n###Gameplay\nUnlike most earlier installments of Assassin's Creed, which put the emphasis solely on action, Odyssey has a strong role-playing element in it. Dialogue options and the non-linear plot allow the player to reach several alternate endings. The game also has a reputation system and multiple options for romancing, including same-sex romances. The combat system is similar to that in Origins with the addition of new skills. The game also reintroduces naval battles."
   },
   "58806": {
     "id": 58806,
@@ -7710,6 +10779,1433 @@
     "esrb_rating": null,
     "clip": null,
     "description_raw": "A game made in 48 hours for the 3rd Annual Chillenium at Texas A&M University. It was made by Anthony Lawn and Grant Barbee. The theme was \"foofaraw\", which basically means to make a big deal about nothing.\nSee the source code at: https://github.com/thepaperpilot/NaN"
+  },
+  "274755": {
+    "id": 274755,
+    "slug": "hades-2018",
+    "name": "Hades",
+    "name_original": "Hades",
+    "description": "<p>Hades is a rogue-like dungeon crawler that combines the best aspects of Supergiant&#39;s critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre.</p>\n<p>BATTLE OUT OF HELL<br />\nAs the immortal Prince of the Underworld, you&#39;ll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.</p>\n<p>UNLEASH THE FURY OF OLYMPUS<br />\nThe Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.</p>\n<p>BEFRIEND GODS, GHOSTS, AND MONSTERS<br />\nA fully-voiced cast of colorful, larger-than-life characters is waiting to meet you! Grow your relationships with them, and experience hundreds of unique story events as you learn about what&#39;s really at stake for this big, dysfunctional family.</p>\n<p>BUILT FOR REPLAYABILITY<br />\nNew surprises await each time you delve into the ever-shifting Underworld, whose guardian bosses will remember you. Use the powerful Mirror of Night to grow permanently stronger, and give yourself a leg up the next time you run away from home.</p>\n<p>NOTHING IS IMPOSSIBLE<br />\nPermanent upgrades mean you don&#39;t have to be a god yourself to experience the exciting combat and gripping story. Though, if you happen to be one, crank up the challenge and get ready for some white-knuckle action that will put your well-practiced skills to the test.</p>\n<p>SIGNATURE SUPERGIANT STYLE<br />\nThe rich, atmospheric presentation and unique melding of gameplay and narrative that&#39;s been core to Supergiant&#39;s games is here in full force: spectacular hand-painted Underworld environments and a blood-pumping original score bring the Underworld to life.</p>",
+    "metacritic": 93,
+    "metacritic_platforms": [
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/xbox-series-x/hades",
+        "platform": {
+          "platform": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x"
+        }
+      },
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/switch/hades",
+        "platform": {
+          "platform": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch"
+        }
+      },
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/playstation-5/hades",
+        "platform": {
+          "platform": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5"
+        }
+      },
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/pc/hades",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      }
+    ],
+    "released": "2020-09-17",
+    "tba": false,
+    "updated": "2026-01-18T01:25:29",
+    "background_image": "https://media.rawg.io/media/games/1f4/1f47a270b8f241e4676b14d39ec620f7.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/256/2565225aa66cb2d213315135da2279e0.jpg",
+    "website": "https://www.supergiantgames.com/games/hades/",
+    "rating": 4.42,
+    "rating_top": 5,
+    "ratings": [
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 1270,
+        "percent": 60.45
+      },
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 610,
+        "percent": 29.03
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 142,
+        "percent": 6.76
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 79,
+        "percent": 3.76
+      }
+    ],
+    "reactions": {
+      "1": 14,
+      "2": 10,
+      "3": 14,
+      "4": 1,
+      "6": 13,
+      "9": 1,
+      "11": 2,
+      "12": 6,
+      "14": 1,
+      "15": 2,
+      "16": 1
+    },
+    "added": 9072,
+    "added_by_status": {
+      "yet": 482,
+      "owned": 5256,
+      "beaten": 1424,
+      "toplay": 729,
+      "dropped": 673,
+      "playing": 508
+    },
+    "playtime": 10,
+    "screenshots_count": 14,
+    "movies_count": 0,
+    "creators_count": 5,
+    "achievements_count": 298,
+    "parent_achievements_count": 50,
+    "reddit_url": "https://www.reddit.com/r/HadesTheGame/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 7656,
+    "twitch_count": 143,
+    "youtube_count": 259739,
+    "reviews_text_count": 42,
+    "ratings_count": 2059,
+    "suggestions_count": 620,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/pc/hades",
+    "parents_count": 0,
+    "additions_count": 0,
+    "game_series_count": 1,
+    "user_game": null,
+    "reviews_count": 2101,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1403,
+          "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1210,
+          "image_background": "https://media.rawg.io/media/games/348/348640e78a7fcd4bb7dcad4fea014eeb.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {
+          "minimum": "Minimum:\nOS: Windows 7 SP1\nProcessor: Dual Core 3.0ghz\nGraphics: 1GB VRAM / OpenGL 2.1+ support\nStorage: 10 GB available space",
+          "recommended": "Recommended:\nProcessor: Dual Core 3.4ghz\nGraphics: 2GB VRAM / OpenGL 2.1+ support\nStorage: 16 GB available space"
+        }
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2020-09-17",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 355781,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 472813,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      },
+      {
+        "id": 295649,
+        "url": "",
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 1432,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      },
+      {
+        "id": 611370,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 611381,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 3513,
+        "name": "Supergiant Games",
+        "slug": "supergiant-games",
+        "games_count": 5,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 151557,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Indie",
+        "slug": "indie",
+        "games_count": 86160,
+        "image_background": "https://media.rawg.io/media/games/226/2262cea0b385db6cf399f4be831603b0.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Atmospheric",
+        "slug": "atmospheric",
+        "language": "eng",
+        "games_count": 39664,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      {
+        "id": 42,
+        "name": "Great Soundtrack",
+        "slug": "great-soundtrack",
+        "language": "eng",
+        "games_count": 3451,
+        "image_background": "https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 118,
+        "name": "Story Rich",
+        "slug": "story-rich",
+        "language": "eng",
+        "games_count": 27230,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      },
+      {
+        "id": 45,
+        "name": "2D",
+        "slug": "2d",
+        "language": "eng",
+        "games_count": 207653,
+        "image_background": "https://media.rawg.io/media/games/226/2262cea0b385db6cf399f4be831603b0.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Fantasy",
+        "slug": "fantasy",
+        "language": "eng",
+        "games_count": 32918,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 69,
+        "name": "Action-Adventure",
+        "slug": "action-adventure",
+        "language": "eng",
+        "games_count": 20986,
+        "image_background": "https://media.rawg.io/media/games/baf/baf9905270314e07e6850cffdb51df41.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Action RPG",
+        "slug": "action-rpg",
+        "language": "eng",
+        "games_count": 8679,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Early Access",
+        "slug": "early-access",
+        "language": "eng",
+        "games_count": 19474,
+        "image_background": "https://media.rawg.io/media/games/adb/adb59be81367b19c2544457424bcf086.jpg"
+      },
+      {
+        "id": 68,
+        "name": "Hack and Slash",
+        "slug": "hack-and-slash",
+        "language": "eng",
+        "games_count": 5338,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Replay Value",
+        "slug": "replay-value",
+        "language": "eng",
+        "games_count": 2255,
+        "image_background": "https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg"
+      },
+      {
+        "id": 639,
+        "name": "Roguelike",
+        "slug": "roguelike",
+        "language": "eng",
+        "games_count": 15144,
+        "image_background": "https://media.rawg.io/media/games/283/283e7e600366b0da7021883d27159b27.jpg"
+      },
+      {
+        "id": 99,
+        "name": "Isometric",
+        "slug": "isometric",
+        "language": "eng",
+        "games_count": 5306,
+        "image_background": "https://media.rawg.io/media/games/87a/87a29bcc56b6b6082ead1dd5e2510aaa.jpg"
+      },
+      {
+        "id": 640,
+        "name": "Roguelite",
+        "slug": "roguelite",
+        "language": "eng",
+        "games_count": 8662,
+        "image_background": "https://media.rawg.io/media/games/4fe/4feffcec6315c5f5a96442a8444431ca.jpg"
+      },
+      {
+        "id": 48,
+        "name": "Dungeon Crawler",
+        "slug": "dungeon-crawler",
+        "language": "eng",
+        "games_count": 7981,
+        "image_background": "https://media.rawg.io/media/games/cef/cefedf18016cbab466861eb698daf988.jpg"
+      },
+      {
+        "id": 258,
+        "name": "Hand-drawn",
+        "slug": "hand-drawn",
+        "language": "eng",
+        "games_count": 9251,
+        "image_background": "https://media.rawg.io/media/games/985/985dc43fe4fd5f0a7ae2a725673d6ac6.jpg"
+      },
+      {
+        "id": 124,
+        "name": "Perma Death",
+        "slug": "perma-death",
+        "language": "eng",
+        "games_count": 2772,
+        "image_background": "https://media.rawg.io/media/games/f3e/f3eec35c6218dcfd93a537751e6bfa61.jpg"
+      },
+      {
+        "id": 3383,
+        "name": "dungeons",
+        "slug": "dungeons",
+        "language": "eng",
+        "games_count": 43,
+        "image_background": "https://media.rawg.io/media/screenshots/ff8/ff8a1b6a074ec09d0dbce53f2d529d31.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 3241,
+        "name": "Supergiant Games",
+        "slug": "supergiant-games",
+        "games_count": 5,
+        "image_background": "https://media.rawg.io/media/games/8fd/8fd2e8317849fd265ad8781c324d4ec2.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 3,
+      "name": "Teen",
+      "slug": "teen"
+    },
+    "clip": null,
+    "description_raw": "Hades is a rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre.\n\nBATTLE OUT OF HELL\nAs the immortal Prince of the Underworld, you'll wield the powers and mythic weapons of Olympus to break free from the clutches of the god of the dead himself, while growing stronger and unraveling more of the story with each unique escape attempt.\n\nUNLEASH THE FURY OF OLYMPUS\nThe Olympians have your back! Meet Zeus, Athena, Poseidon, and many more, and choose from their dozens of powerful Boons that enhance your abilities. There are thousands of viable character builds to discover as you go.\n\nBEFRIEND GODS, GHOSTS, AND MONSTERS\nA fully-voiced cast of colorful, larger-than-life characters is waiting to meet you! Grow your relationships with them, and experience hundreds of unique story events as you learn about what's really at stake for this big, dysfunctional family.\n\nBUILT FOR REPLAYABILITY\nNew surprises await each time you delve into the ever-shifting Underworld, whose guardian bosses will remember you. Use the powerful Mirror of Night to grow permanently stronger, and give yourself a leg up the next time you run away from home.\n\nNOTHING IS IMPOSSIBLE\nPermanent upgrades mean you don't have to be a god yourself to experience the exciting combat and gripping story. Though, if you happen to be one, crank up the challenge and get ready for some white-knuckle action that will put your well-practiced skills to the test.\n\nSIGNATURE SUPERGIANT STYLE\nThe rich, atmospheric presentation and unique melding of gameplay and narrative that's been core to Supergiant's games is here in full force: spectacular hand-painted Underworld environments and a blood-pumping original score bring the Underworld to life."
+  },
+  "324994": {
+    "id": 324994,
+    "slug": "darksiders-genesis",
+    "name": "Darksiders Genesis",
+    "name_original": "Darksiders Genesis",
+    "description": "<p>From the dawn of creation, THE COUNCIL has maintained the Balance across existence.  Carrying out their orders are THE HORSEMEN, Nephilim (powerful beings spawned from the unnatural union of angels and demons) who have pledged themselves to the Council and been granted immense power.  However, this power came at a tragic cost: the Horsemen were ordered to use their newfound strength to wipe out the rest of their kind.  What followed was a bloody battle on Eden where the Horsemen, obeying the will of the Council, annihilated the Nephilim.<br />\nStill reeling from the events on Eden, WAR and STRIFE have been given a new assignment -- LUCIFER, the enigmatic and deceptive demon king, has been plotting to upset the Balance by granting power to master demons throughout Hell.  War and Strife must hunt down these masters, gather information, and ultimately fight their way through a tangled, demonic conspiracy that threatens to forever upset the Balance and unravel all of creation.<br />\nDARKSIDERS: GENESIS is an action/adventure that tears its way through hordes of demons, angels, and everything in-between on its way to Hell and back with guns blazing and swords swinging.  Genesis gives players their first look at the world of DARKSIDERS before the events of the original game, as well as introduces the horseman STRIFE.Features:Blast angels and demons as the gunslinging Horseman Strife, playable for the first time<br />\nSwap between the powerful swordsman War and Strife instantly in frenetic, single-player gameplay<br />\nExplore the epic world of Darksiders and wreak havoc with a friend in two-player cooperative mode<br />\nExperience a brand new story campaign that takes place before the original Darksiders, exploring the origin of the Seven Seals<br />\nGrow in strength and power as you collect items, abilities, weapon enhancements, creature cores and more</p>",
+    "metacritic": 76,
+    "metacritic_platforms": [
+      {
+        "metascore": 77,
+        "url": "https://www.metacritic.com/game/xbox-one/darksiders-genesis",
+        "platform": {
+          "platform": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one"
+        }
+      },
+      {
+        "metascore": 74,
+        "url": "https://www.metacritic.com/game/switch/darksiders-genesis",
+        "platform": {
+          "platform": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch"
+        }
+      },
+      {
+        "metascore": 77,
+        "url": "https://www.metacritic.com/game/playstation-4/darksiders-genesis",
+        "platform": {
+          "platform": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4"
+        }
+      },
+      {
+        "metascore": 77,
+        "url": "https://www.metacritic.com/game/pc/darksiders-genesis",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      }
+    ],
+    "released": "2019-12-05",
+    "tba": false,
+    "updated": "2025-11-04T20:32:24",
+    "background_image": "https://media.rawg.io/media/games/777/777060c7cc63029dc4d5f5c562d07b4c.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/d7e/d7ef3acab5b86cf4eea2f2f5993e63c1.jpg",
+    "website": "",
+    "rating": 3.58,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 125,
+        "percent": 53.65
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 65,
+        "percent": 27.9
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 24,
+        "percent": 10.3
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 19,
+        "percent": 8.15
+      }
+    ],
+    "reactions": {
+      "8": 2
+    },
+    "added": 2458,
+    "added_by_status": {
+      "yet": 145,
+      "owned": 1820,
+      "beaten": 173,
+      "toplay": 178,
+      "dropped": 111,
+      "playing": 31
+    },
+    "playtime": 4,
+    "screenshots_count": 5,
+    "movies_count": 0,
+    "creators_count": 0,
+    "achievements_count": 142,
+    "parent_achievements_count": 24,
+    "reddit_url": "",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 0,
+    "twitch_count": 150,
+    "youtube_count": 776907,
+    "reviews_text_count": 8,
+    "ratings_count": 225,
+    "suggestions_count": 280,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/pc/darksiders-genesis",
+    "parents_count": 0,
+    "additions_count": 0,
+    "game_series_count": 5,
+    "user_game": null,
+    "reviews_count": 233,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo",
+          "slug": "nintendo"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2019-12-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 7,
+          "name": "Nintendo Switch",
+          "slug": "nintendo-switch",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5745,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        },
+        "released_at": "2020-02-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 1,
+          "name": "Xbox One",
+          "slug": "xbox-one",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 5727,
+          "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+        },
+        "released_at": "2019-12-05",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2019-12-05",
+        "requirements": {
+          "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS: Windows 7, 8, Windows 10 (64 bit)\nProcessor: AMD FX-8320 (3,5 GHz) / Intel i5-4690K (3,5 GHz) or better\nMemory: 4 GB RAM\nGraphics: NVIDIA GeForce GTX 960\nDirectX: Version 11\nStorage: 15 GB available space\nAdditional Notes: Preliminary System requirements",
+          "recommended": "Recommended:\nRequires a 64-bit processor and operating system\nOS: Windows 7, 8, Windows 10 (64 bit)\nProcessor: Intel Core i7-3930K (3.2 GHz)/AMD Ryzen 5 1600 (3.2 GHz) or better\nMemory: 8 GB RAM\nGraphics: NVIDIA GeForce GTX 1060\nDirectX: Version 11\nStorage: 15 GB available space\nAdditional Notes: Preliminary System requirements"
+        }
+      }
+    ],
+    "stores": [
+      {
+        "id": 373468,
+        "url": "",
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 7131,
+          "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        }
+      },
+      {
+        "id": 386715,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 397518,
+        "url": "",
+        "store": {
+          "id": 2,
+          "name": "Xbox Store",
+          "slug": "xbox-store",
+          "domain": "microsoft.com",
+          "games_count": 4934,
+          "image_background": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg"
+        }
+      },
+      {
+        "id": 524718,
+        "url": "",
+        "store": {
+          "id": 6,
+          "name": "Nintendo Store",
+          "slug": "nintendo",
+          "domain": "nintendo.com",
+          "games_count": 9147,
+          "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+        }
+      },
+      {
+        "id": 326932,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 3957,
+        "name": "Airship Syndicate",
+        "slug": "airship-syndicate",
+        "games_count": 6,
+        "image_background": "https://media.rawg.io/media/screenshots/19f/19f695fe53a195097da7b94c27dc3505.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 151557,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Multiplayer",
+        "slug": "multiplayer",
+        "language": "eng",
+        "games_count": 42508,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 40849,
+        "name": "Steam Cloud",
+        "slug": "steam-cloud",
+        "language": "eng",
+        "games_count": 25679,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Co-op",
+        "slug": "co-op",
+        "language": "eng",
+        "games_count": 14364,
+        "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+      },
+      {
+        "id": 411,
+        "name": "cooperative",
+        "slug": "cooperative",
+        "language": "eng",
+        "games_count": 6573,
+        "image_background": "https://media.rawg.io/media/games/da1/da1b267764d77221f07a4386b6548e5a.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Online Co-Op",
+        "slug": "online-co-op",
+        "language": "eng",
+        "games_count": 7659,
+        "image_background": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Gore",
+        "slug": "gore",
+        "language": "eng",
+        "games_count": 6658,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      },
+      {
+        "id": 397,
+        "name": "Online multiplayer",
+        "slug": "online-multiplayer",
+        "language": "eng",
+        "games_count": 3804,
+        "image_background": "https://media.rawg.io/media/games/424/424facd40f4eb1f2794fe4b4bb28a277.jpg"
+      },
+      {
+        "id": 198,
+        "name": "Split Screen",
+        "slug": "split-screen",
+        "language": "eng",
+        "games_count": 8060,
+        "image_background": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg"
+      },
+      {
+        "id": 75,
+        "name": "Local Co-Op",
+        "slug": "local-co-op",
+        "language": "eng",
+        "games_count": 6077,
+        "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+      },
+      {
+        "id": 72,
+        "name": "Local Multiplayer",
+        "slug": "local-multiplayer",
+        "language": "eng",
+        "games_count": 14026,
+        "image_background": "https://media.rawg.io/media/games/bbf/bbf8d74ab64440ad76294cff2f4d9cfa.jpg"
+      },
+      {
+        "id": 40937,
+        "name": "Steam Trading Cards",
+        "slug": "steam-trading-cards-2",
+        "language": "eng",
+        "games_count": 844,
+        "image_background": "https://media.rawg.io/media/games/b2c/b2c9c6115114c8f7d461b5430e8a7d4a.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 1283,
+        "name": "THQ Nordic",
+        "slug": "thq-nordic",
+        "games_count": 244,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      }
+    ],
+    "esrb_rating": null,
+    "clip": null,
+    "description_raw": "From the dawn of creation, THE COUNCIL has maintained the Balance across existence.  Carrying out their orders are THE HORSEMEN, Nephilim (powerful beings spawned from the unnatural union of angels and demons) who have pledged themselves to the Council and been granted immense power.  However, this power came at a tragic cost: the Horsemen were ordered to use their newfound strength to wipe out the rest of their kind.  What followed was a bloody battle on Eden where the Horsemen, obeying the will of the Council, annihilated the Nephilim.\nStill reeling from the events on Eden, WAR and STRIFE have been given a new assignment -- LUCIFER, the enigmatic and deceptive demon king, has been plotting to upset the Balance by granting power to master demons throughout Hell.  War and Strife must hunt down these masters, gather information, and ultimately fight their way through a tangled, demonic conspiracy that threatens to forever upset the Balance and unravel all of creation.\nDARKSIDERS: GENESIS is an action/adventure that tears its way through hordes of demons, angels, and everything in-between on its way to Hell and back with guns blazing and swords swinging.  Genesis gives players their first look at the world of DARKSIDERS before the events of the original game, as well as introduces the horseman STRIFE.Features:Blast angels and demons as the gunslinging Horseman Strife, playable for the first time\nSwap between the powerful swordsman War and Strife instantly in frenetic, single-player gameplay\nExplore the epic world of Darksiders and wreak havoc with a friend in two-player cooperative mode\nExperience a brand new story campaign that takes place before the original Darksiders, exploring the origin of the Seven Seals\nGrow in strength and power as you collect items, abilities, weapon enhancements, creature cores and more"
+  },
+  "324997": {
+    "id": 324997,
+    "slug": "baldurs-gate-3",
+    "name": "Baldur's Gate III",
+    "name_original": "Baldur's Gate III",
+    "description": "<p>Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.</p>\n<p>Mysterious abilities are awakening inside you, drawn from a Mind Flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.</p>\n<p>From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons and Dragons.</p>\n<p>Choose from a wide selection of D&amp;D races and classes, or play as an origin character with a hand-crafted background. Adventure, loot, battle and romance as you journey through the Forgotten Realms and beyond. Play alone, and select your companions carefully, or as a party of up to four in multiplayer.</p>\n<p>Abducted, infected, lost. You are turning into a monster, but as the corruption inside you grows, so does your power. That power may help you to survive, but there will be a price to pay, and more than any ability, the bonds of trust that you build within your party could be your greatest strength. Caught in a conflict between devils, deities, and sinister otherworldly forces, you will determine the fate of the Forgotten Realms together.</p>\n<p>Forged with the new Divinity 4.0 engine, Baldur’s Gate 3 gives you unprecedented freedom to explore, experiment, and interact with a world that reacts to your choices. A grand, cinematic narrative brings you closer to your characters than ever before, as you venture through our biggest world yet.</p>\n<p>The Forgotten Realms are a vast, detailed and diverse world, and there are secrets to be discovered all around you -- verticality is a vital part of exploration. Sneak, dip, shove, climb, and jump as you journey from the depths of the Underdark to the glittering rooftops of the Upper City. How you survive, and the mark you leave on the world, is up to you.</p>",
+    "metacritic": 97,
+    "metacritic_platforms": [
+      {
+        "metascore": 97,
+        "url": "https://www.metacritic.com/game/pc/baldurs-gate-3",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      }
+    ],
+    "released": "2023-08-03",
+    "tba": false,
+    "updated": "2026-01-17T10:36:29",
+    "background_image": "https://media.rawg.io/media/games/699/69907ecf13f172e9e144069769c3be73.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/b15/b15ec0f9865be48fc6651773cd06a69a.jpg",
+    "website": "https://baldursgate3.game/",
+    "rating": 4.44,
+    "rating_top": 5,
+    "ratings": [
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 729,
+        "percent": 71.61
+      },
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 158,
+        "percent": 15.52
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 75,
+        "percent": 7.37
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 56,
+        "percent": 5.5
+      }
+    ],
+    "reactions": {
+      "1": 13,
+      "2": 9,
+      "3": 12,
+      "5": 1,
+      "6": 4,
+      "7": 3,
+      "8": 4,
+      "10": 5,
+      "11": 4,
+      "12": 6,
+      "16": 1
+    },
+    "added": 4595,
+    "added_by_status": {
+      "yet": 382,
+      "owned": 2164,
+      "beaten": 590,
+      "toplay": 887,
+      "dropped": 213,
+      "playing": 359
+    },
+    "playtime": 19,
+    "screenshots_count": 12,
+    "movies_count": 0,
+    "creators_count": 2,
+    "achievements_count": 25,
+    "parent_achievements_count": 25,
+    "reddit_url": "https://www.reddit.com/r/BaldursGate3/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 4018,
+    "twitch_count": 151,
+    "youtube_count": 584102,
+    "reviews_text_count": 34,
+    "ratings_count": 984,
+    "suggestions_count": 582,
+    "alternative_names": [],
+    "metacritic_url": "https://www.metacritic.com/game/pc/baldurs-gate-3",
+    "parents_count": 0,
+    "additions_count": 0,
+    "game_series_count": 2,
+    "user_game": null,
+    "reviews_count": 1018,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      },
+      {
+        "platform": {
+          "id": 5,
+          "name": "Apple Macintosh",
+          "slug": "mac"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 5,
+          "name": "macOS",
+          "slug": "macos",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 107970,
+          "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+        },
+        "released_at": "2023-08-03",
+        "requirements": {
+          "minimum": "Minimum:\r\n\r\nRequires a 64-bit processor and operating system\r\n\r\nOS: macOS 10.15.6\r\n\r\nProcessor: 2.6GHz Quad-Core Intel Core i7\r\n\r\nMemory: 8 GB RAM\r\n\r\nGraphics: AMD Radeon460 4GB\r\n\r\nStorage: 150 GB available space\r\n\r\nAdditional Notes: Minimum specs can run the game on low to medium settings. To meet minimum specs, you'll need a MacBook Pro 15 inch from 2016 or newer. Or, a MacBook Pro 13 inch from 2018 or newer. M1 Chip requirements: MacBook Air, MacBook Pro, or Mac mini with Apple M1 chip and 8GB of RAM.",
+          "recommended": "Recommended:\r\n\r\nRequires a 64-bit processor and operating system\r\n\r\nOS: macOS 10.15.7\r\n\r\nProcessor: 2.3GHz 8-Core Intel Core i9\r\n\r\nMemory: 16 GB RAM\r\n\r\nGraphics: AMD Radeon Pro 5500M 8GB\r\n\r\nStorage: 150 GB available space\r\n\r\nAdditional Notes: Recommended specs can run the game on high or ultra settings. You'll meet recommended specs if you have a MacBook Pro 15 inch or 16 inch from 2019 and up. An iMac from 2017 or newer will also pull it off. M1 Chip requirements: MacBook Air, MacBook Pro, or Mac mini with Apple M1 chip and 16GB of RAM"
+        }
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2023-08-03",
+        "requirements": {
+          "minimum": "Minimum:\r\n\r\nRequires a 64-bit processor and operating system\r\n\r\nOS: Windows 7 SP1 64-bit\r\n\r\nProcessor: Intel i5-4690 / AMD FX 4350\r\n\r\nMemory: 8 GB RAM\r\n\r\nGraphics: Nvidia GTX 780 / AMD Radeon R9 280X\r\n\r\nDirectX: Version 11\r\n\r\nStorage: 150 GB available space\r\n\r\nAdditional Notes: Default API is Vulkan 1.1. Directx11 API also provided. The minimum requirements might decrease over the course of Early Access, as performance improves.",
+          "recommended": "Recommended:\r\n\r\nRequires a 64-bit processor and operating system\r\n\r\nOS: Windows 10 64-bit\r\n\r\nProcessor: Intel i7 4770k / AMD Ryzen 5 1500X\r\n\r\nMemory: 16 GB RAM\r\n\r\nGraphics: Nvidia GTX 1060 6GB / AMD RX580\r\n\r\nDirectX: Version 11\r\n\r\nStorage: 150 GB available space\r\n\r\nAdditional Notes: Default API is Vulkan 1.1. Directx11 API also provided. The recommended requirements might decrease over the course of Early Access, as performance improves."
+        }
+      },
+      {
+        "platform": {
+          "id": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1210,
+          "image_background": "https://media.rawg.io/media/games/348/348640e78a7fcd4bb7dcad4fea014eeb.jpg"
+        },
+        "released_at": "2023-08-03",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1403,
+          "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+        },
+        "released_at": "2023-08-03",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 930049,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 326833,
+        "url": "",
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 7131,
+          "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        }
+      },
+      {
+        "id": 326832,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 4056,
+        "name": "Larian Studios",
+        "slug": "larian-studios",
+        "games_count": 17,
+        "image_background": "https://media.rawg.io/media/screenshots/c01/c0169cb887b2c233e493e21eae1e2865.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 3,
+        "name": "Adventure",
+        "slug": "adventure",
+        "games_count": 151557,
+        "image_background": "https://media.rawg.io/media/games/8a0/8a02f84a5916ede2f923b88d5f8217ba.jpg"
+      },
+      {
+        "id": 5,
+        "name": "RPG",
+        "slug": "role-playing-games-rpg",
+        "games_count": 61871,
+        "image_background": "https://media.rawg.io/media/games/f6b/f6bed028b02369d4cab548f4f9337e81.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Strategy",
+        "slug": "strategy",
+        "games_count": 62331,
+        "image_background": "https://media.rawg.io/media/games/e40/e40cc9d1957b0a0ed7e389834457b524.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Multiplayer",
+        "slug": "multiplayer",
+        "language": "eng",
+        "games_count": 42508,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 40849,
+        "name": "Steam Cloud",
+        "slug": "steam-cloud",
+        "language": "eng",
+        "games_count": 25679,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Co-op",
+        "slug": "co-op",
+        "language": "eng",
+        "games_count": 14364,
+        "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Online Co-Op",
+        "slug": "online-co-op",
+        "language": "eng",
+        "games_count": 7659,
+        "image_background": "https://media.rawg.io/media/games/f87/f87457e8347484033cb34cde6101d08d.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Fantasy",
+        "slug": "fantasy",
+        "language": "eng",
+        "games_count": 32918,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 397,
+        "name": "Online multiplayer",
+        "slug": "online-multiplayer",
+        "language": "eng",
+        "games_count": 3804,
+        "image_background": "https://media.rawg.io/media/games/424/424facd40f4eb1f2794fe4b4bb28a277.jpg"
+      },
+      {
+        "id": 198,
+        "name": "Split Screen",
+        "slug": "split-screen",
+        "language": "eng",
+        "games_count": 8060,
+        "image_background": "https://media.rawg.io/media/games/9f1/9f1891779cb20f44de93cef33b067e50.jpg"
+      },
+      {
+        "id": 75,
+        "name": "Local Co-Op",
+        "slug": "local-co-op",
+        "language": "eng",
+        "games_count": 6077,
+        "image_background": "https://media.rawg.io/media/games/d58/d588947d4286e7b5e0e12e1bea7d9844.jpg"
+      },
+      {
+        "id": 72,
+        "name": "Local Multiplayer",
+        "slug": "local-multiplayer",
+        "language": "eng",
+        "games_count": 14026,
+        "image_background": "https://media.rawg.io/media/games/bbf/bbf8d74ab64440ad76294cff2f4d9cfa.jpg"
+      },
+      {
+        "id": 40832,
+        "name": "Cross-Platform Multiplayer",
+        "slug": "cross-platform-multiplayer",
+        "language": "eng",
+        "games_count": 3158,
+        "image_background": "https://media.rawg.io/media/games/5eb/5eb49eb2fa0738fdb5bacea557b1bc57.jpg"
+      },
+      {
+        "id": 468,
+        "name": "role-playing",
+        "slug": "role-playing",
+        "language": "eng",
+        "games_count": 1656,
+        "image_background": "https://media.rawg.io/media/games/b7d/b7d3f1715fa8381a4e780173a197a615.jpg"
+      },
+      {
+        "id": 121,
+        "name": "Character Customization",
+        "slug": "character-customization",
+        "language": "eng",
+        "games_count": 6635,
+        "image_background": "https://media.rawg.io/media/games/f54/f54e9fb2f4aac37810ea1a69a3e4480a.jpg"
+      },
+      {
+        "id": 40833,
+        "name": "Captions available",
+        "slug": "captions-available",
+        "language": "eng",
+        "games_count": 1483,
+        "image_background": "https://media.rawg.io/media/games/23b/23b69bfef2a1ce2e3dcdf1aa8ef1150b.jpg"
+      },
+      {
+        "id": 99,
+        "name": "Isometric",
+        "slug": "isometric",
+        "language": "eng",
+        "games_count": 5306,
+        "image_background": "https://media.rawg.io/media/games/87a/87a29bcc56b6b6082ead1dd5e2510aaa.jpg"
+      },
+      {
+        "id": 82,
+        "name": "Magic",
+        "slug": "magic",
+        "language": "eng",
+        "games_count": 11330,
+        "image_background": "https://media.rawg.io/media/games/886/8868f9ea0c91d45316319ebf5dd4fc64.jpg"
+      },
+      {
+        "id": 40937,
+        "name": "Steam Trading Cards",
+        "slug": "steam-trading-cards-2",
+        "language": "eng",
+        "games_count": 844,
+        "image_background": "https://media.rawg.io/media/games/b2c/b2c9c6115114c8f7d461b5430e8a7d4a.jpg"
+      },
+      {
+        "id": 238,
+        "name": "CRPG",
+        "slug": "crpg",
+        "language": "eng",
+        "games_count": 1550,
+        "image_background": "https://media.rawg.io/media/games/d8f/d8f3b28fc747ed6f92943cdd33fb91b5.jpeg"
+      },
+      {
+        "id": 206,
+        "name": "Party-Based RPG",
+        "slug": "party-based-rpg",
+        "language": "eng",
+        "games_count": 1579,
+        "image_background": "https://media.rawg.io/media/games/a9c/a9c789951de65da545d51f664b4f2ce0.jpg"
+      },
+      {
+        "id": 467,
+        "name": "Role Playing Game",
+        "slug": "role-playing-game",
+        "language": "eng",
+        "games_count": 20,
+        "image_background": "https://media.rawg.io/media/games/d89/d89bd0cf4fcdc10820892980cbba0f49.jpg"
+      },
+      {
+        "id": 574,
+        "name": "Dungeons & Dragons",
+        "slug": "dungeons-dragons",
+        "language": "eng",
+        "games_count": 203,
+        "image_background": "https://media.rawg.io/media/screenshots/610/610e26d28e5cc1c9499f0162a3451da9.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 3678,
+        "name": "Larian Studios",
+        "slug": "larian-studios",
+        "games_count": 14,
+        "image_background": "https://media.rawg.io/media/games/7d8/7d89761cadbd930a2e3cf7ff2679882f.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.\r\n\r\nMysterious abilities are awakening inside you, drawn from a Mind Flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.\r\n\r\nFrom the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons and Dragons.\r\n\r\nChoose from a wide selection of D&D races and classes, or play as an origin character with a hand-crafted background. Adventure, loot, battle and romance as you journey through the Forgotten Realms and beyond. Play alone, and select your companions carefully, or as a party of up to four in multiplayer.\r\n\r\nAbducted, infected, lost. You are turning into a monster, but as the corruption inside you grows, so does your power. That power may help you to survive, but there will be a price to pay, and more than any ability, the bonds of trust that you build within your party could be your greatest strength. Caught in a conflict between devils, deities, and sinister otherworldly forces, you will determine the fate of the Forgotten Realms together.\r\n\r\nForged with the new Divinity 4.0 engine, Baldur’s Gate 3 gives you unprecedented freedom to explore, experiment, and interact with a world that reacts to your choices. A grand, cinematic narrative brings you closer to your characters than ever before, as you venture through our biggest world yet.\r\n\r\nThe Forgotten Realms are a vast, detailed and diverse world, and there are secrets to be discovered all around you -- verticality is a vital part of exploration. Sneak, dip, shove, climb, and jump as you journey from the depths of the Underdark to the glittering rooftops of the Upper City. How you survive, and the mark you leave on the world, is up to you."
   },
   "339958": {
     "id": 339958,
@@ -8948,5 +13444,708 @@
     },
     "clip": null,
     "description_raw": "Step into the shoes of a transfer student thrust into an unexpected fate when entering the hour \"hidden\" between one day and the next. Awaken an incredible power and chase the mysteries of the Dark Hour, fight for your friends, and leave a mark on their memories forever.\n\nPersona 3 Reload is a captivating reimagining of the genre-defining RPG, reborn for the modern era."
+  },
+  "965470": {
+    "id": 965470,
+    "slug": "counter-strike-2-2",
+    "name": "Counter-Strike 2",
+    "name_original": "Counter-Strike 2",
+    "description": "<p>For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.</p>\n<p>A free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.</p>",
+    "metacritic": null,
+    "metacritic_platforms": [],
+    "released": "2023-09-27",
+    "tba": false,
+    "updated": "2026-01-15T17:48:44",
+    "background_image": "https://media.rawg.io/media/games/ec4/ec4b02bdb3eb5c6212992c19bc05697e.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/5be/5beafdbaed1f42dc236386926504c065.jpg",
+    "website": "https://www.counter-strike.net/cs2",
+    "rating": 3.57,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 94,
+        "percent": 46.08
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 55,
+        "percent": 26.96
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 33,
+        "percent": 16.18
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 22,
+        "percent": 10.78
+      }
+    ],
+    "reactions": {
+      "14": 1,
+      "15": 2,
+      "20": 1
+    },
+    "added": 461,
+    "added_by_status": {
+      "yet": 27,
+      "owned": 109,
+      "beaten": 69,
+      "toplay": 17,
+      "dropped": 155,
+      "playing": 84
+    },
+    "playtime": 0,
+    "screenshots_count": 31,
+    "movies_count": 0,
+    "creators_count": 1,
+    "achievements_count": 0,
+    "parent_achievements_count": 0,
+    "reddit_url": "https://www.reddit.com/r/GlobalOffensive/",
+    "reddit_name": "Counter-Strike",
+    "reddit_description": "r/GlobalOffensive is the home for the Counter-Strike community and a hub for the discussion and sharing of content relevant to Counter-Strike: Global Offensive (CS:GO), and Counter-Strike 2 (CS2). Counter-Strike enjoys a thriving esports scene and dedicated competitive playerbase, as well as a robust creative community. This is the largest and most active CS sub on Reddit.",
+    "reddit_logo": "https://a.thumbs.redditmedia.com/ArBLMghLMuAksX0rZ4Hcvs7DEhzqXET3IaYpI7fGkP8.png",
+    "reddit_count": 841,
+    "twitch_count": 0,
+    "youtube_count": 0,
+    "reviews_text_count": 6,
+    "ratings_count": 198,
+    "suggestions_count": 337,
+    "alternative_names": [],
+    "metacritic_url": "",
+    "parents_count": 1,
+    "additions_count": 0,
+    "game_series_count": 0,
+    "user_game": null,
+    "reviews_count": 204,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 6,
+          "name": "Linux",
+          "slug": "linux"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 6,
+          "name": "Linux",
+          "slug": "linux",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 80331,
+          "image_background": "https://media.rawg.io/media/games/6fc/6fcf4cd3b17c288821388e6085bb0fc9.jpg"
+        },
+        "released_at": "2023-09-27",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2023-09-27",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 966294,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 1612,
+        "name": "Valve Software",
+        "slug": "valve-software",
+        "games_count": 44,
+        "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 2,
+        "name": "Shooter",
+        "slug": "shooter",
+        "games_count": 59613,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 8,
+        "name": "First-Person",
+        "slug": "first-person",
+        "language": "eng",
+        "games_count": 37355,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      {
+        "id": 30,
+        "name": "FPS",
+        "slug": "fps",
+        "language": "eng",
+        "games_count": 14969,
+        "image_background": "https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"
+      },
+      {
+        "id": 49,
+        "name": "Difficult",
+        "slug": "difficult",
+        "language": "eng",
+        "games_count": 14295,
+        "image_background": "https://media.rawg.io/media/games/f90/f90ee1a4239247a822771c40488e68c5.jpg"
+      },
+      {
+        "id": 80,
+        "name": "Tactical",
+        "slug": "tactical",
+        "language": "eng",
+        "games_count": 6608,
+        "image_background": "https://media.rawg.io/media/games/1a1/1a17e9b6286edb7e1f1e510110ccb0c0.jpg"
+      },
+      {
+        "id": 40852,
+        "name": "Steam Workshop",
+        "slug": "steam-workshop",
+        "language": "eng",
+        "games_count": 1768,
+        "image_background": "https://media.rawg.io/media/games/2ba/2bac0e87cf45e5b508f227d281c9252a.jpg"
+      },
+      {
+        "id": 70,
+        "name": "War",
+        "slug": "war",
+        "language": "eng",
+        "games_count": 10095,
+        "image_background": "https://media.rawg.io/media/games/03d/03d17d237f9541b67a13f9425ced4ca4.jpg"
+      },
+      {
+        "id": 131,
+        "name": "Fast-Paced",
+        "slug": "fast-paced",
+        "language": "eng",
+        "games_count": 10818,
+        "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+      },
+      {
+        "id": 81,
+        "name": "Military",
+        "slug": "military",
+        "language": "eng",
+        "games_count": 2520,
+        "image_background": "https://media.rawg.io/media/games/106/1069e754e7e6012b0cf42b4b04704792.jpg"
+      },
+      {
+        "id": 170,
+        "name": "Competitive",
+        "slug": "competitive",
+        "language": "eng",
+        "games_count": 1312,
+        "image_background": "https://media.rawg.io/media/games/9fb/9fbaea2168caea1f806546dfdaaeb1da.jpg"
+      },
+      {
+        "id": 40856,
+        "name": "Valve Anti-Cheat enabled",
+        "slug": "valve-anti-cheat-enabled",
+        "language": "eng",
+        "games_count": 105,
+        "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+      },
+      {
+        "id": 245,
+        "name": "Trading",
+        "slug": "trading",
+        "language": "eng",
+        "games_count": 1490,
+        "image_background": "https://media.rawg.io/media/screenshots/8ba/8ba023119cc83dff0d1d535f12e6b348.jpg"
+      },
+      {
+        "id": 2879,
+        "name": "esports",
+        "slug": "esports",
+        "language": "eng",
+        "games_count": 886,
+        "image_background": "https://media.rawg.io/media/screenshots/6f4/6f473ae1a810ad2eff721b00a2d7173f.jpg"
+      },
+      {
+        "id": 2809,
+        "name": "skins",
+        "slug": "skins",
+        "language": "eng",
+        "games_count": 37,
+        "image_background": "https://media.rawg.io/media/screenshots/a00/a0082ef53d507c15dc8d66767591cc68.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 3399,
+        "name": "Valve",
+        "slug": "valve",
+        "games_count": 48,
+        "image_background": "https://media.rawg.io/media/games/66e/66e90c9d7b9a17335b310ceb294e9365.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.\r\n\r\nA free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools."
+  },
+  "968499": {
+    "id": 968499,
+    "slug": "house-flipper-2",
+    "name": "House Flipper 2",
+    "name_original": "House Flipper 2",
+    "description": "<p>It&#39;s time to dust off your hammer - House Flipper is back in a brand-new fashion! Buy and renovate run-down houses! Or maybe you want to build new ones? Now you can! Start as a rookie Flipper and make a fortune by helping out the community of the charming town of Pinnacove.</p>",
+    "metacritic": null,
+    "metacritic_platforms": [],
+    "released": "2023-12-14",
+    "tba": false,
+    "updated": "2026-01-06T04:17:09",
+    "background_image": "https://media.rawg.io/media/screenshots/514/5148bb88d1a40cb5ae471405f4c2508a.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/1c5/1c540cdb1df32a2f64a658bde9a526ef.jpg",
+    "website": "https://houseflipper2.com/",
+    "rating": 3.69,
+    "rating_top": 4,
+    "ratings": [
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 18,
+        "percent": 56.25
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 8,
+        "percent": 25
+      },
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 4,
+        "percent": 12.5
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 2,
+        "percent": 6.25
+      }
+    ],
+    "reactions": {},
+    "added": 159,
+    "added_by_status": {
+      "yet": 12,
+      "owned": 59,
+      "beaten": 24,
+      "toplay": 32,
+      "dropped": 25,
+      "playing": 7
+    },
+    "playtime": 9,
+    "screenshots_count": 14,
+    "movies_count": 0,
+    "creators_count": 0,
+    "achievements_count": 36,
+    "parent_achievements_count": 36,
+    "reddit_url": "https://www.reddit.com/r/HouseFlipper/",
+    "reddit_name": "House Flipper",
+    "reddit_description": "Subreddit for the house renovation game titled House Flipper",
+    "reddit_logo": "",
+    "reddit_count": 773,
+    "twitch_count": 0,
+    "youtube_count": 0,
+    "reviews_text_count": 3,
+    "ratings_count": 29,
+    "suggestions_count": 239,
+    "alternative_names": [],
+    "metacritic_url": "",
+    "parents_count": 0,
+    "additions_count": 0,
+    "game_series_count": 1,
+    "user_game": null,
+    "reviews_count": 32,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      },
+      {
+        "platform": {
+          "id": 3,
+          "name": "Xbox",
+          "slug": "xbox"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2023-12-14",
+        "requirements": {
+          "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS: Windows 10 64bit\nProcessor: AMD Ryzen 5 1st gen / Intel Core i5 7th gen\nMemory: 8 GB RAM\nGraphics: AMD Radeon RX 580 4GB / NVIDIA GeForce GTX 1060 6GB\nDirectX: Version 11\nStorage: 6 GB available space",
+          "recommended": "Recommended:\nRequires a 64-bit processor and operating system\nOS: Windows 10 64bit or newer\nProcessor: AMD Ryzen 5 3rd gen / Intel Core i5 10th gen\nMemory: 16 GB RAM\nGraphics: AMD Radeon RX 5700XT 8GB / NVIDIA RTX 2070 8GB\nDirectX: Version 11\nStorage: 6 GB available space"
+        }
+      },
+      {
+        "platform": {
+          "id": 187,
+          "name": "PlayStation 5",
+          "slug": "playstation5",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1403,
+          "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+        },
+        "released_at": "2023-12-14",
+        "requirements": {}
+      },
+      {
+        "platform": {
+          "id": 186,
+          "name": "Xbox Series S/X",
+          "slug": "xbox-series-x",
+          "image": null,
+          "year_end": null,
+          "year_start": 2020,
+          "games_count": 1210,
+          "image_background": "https://media.rawg.io/media/games/348/348640e78a7fcd4bb7dcad4fea014eeb.jpg"
+        },
+        "released_at": "2023-12-14",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 968035,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 3424,
+        "name": "Empyrean",
+        "slug": "empyrean",
+        "games_count": 9,
+        "image_background": "https://media.rawg.io/media/screenshots/6c1/6c13a21d9bd5d99ff2426b6b37ee0154.jpg"
+      },
+      {
+        "id": 9579,
+        "name": "Frozen District",
+        "slug": "frozen-district",
+        "games_count": 5,
+        "image_background": "https://media.rawg.io/media/screenshots/1c5/1c540cdb1df32a2f64a658bde9a526ef.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 14,
+        "name": "Simulation",
+        "slug": "simulation",
+        "games_count": 76728,
+        "image_background": "https://media.rawg.io/media/games/179/179245a3693049a11a25b900ab18f8f7.jpg"
+      },
+      {
+        "id": 40,
+        "name": "Casual",
+        "slug": "casual",
+        "games_count": 67506,
+        "image_background": "https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Indie",
+        "slug": "indie",
+        "games_count": 86160,
+        "image_background": "https://media.rawg.io/media/games/226/2262cea0b385db6cf399f4be831603b0.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 40849,
+        "name": "Steam Cloud",
+        "slug": "steam-cloud",
+        "language": "eng",
+        "games_count": 25679,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 8,
+        "name": "First-Person",
+        "slug": "first-person",
+        "language": "eng",
+        "games_count": 37355,
+        "image_background": "https://media.rawg.io/media/games/20a/20aa03a10cda45239fe22d035c0ebe64.jpg"
+      },
+      {
+        "id": 37,
+        "name": "Sandbox",
+        "slug": "sandbox",
+        "language": "eng",
+        "games_count": 8498,
+        "image_background": "https://media.rawg.io/media/games/713/713269608dc8f2f40f5a670a14b2de94.jpg"
+      },
+      {
+        "id": 40838,
+        "name": "Includes level editor",
+        "slug": "includes-level-editor",
+        "language": "eng",
+        "games_count": 2214,
+        "image_background": "https://media.rawg.io/media/games/26b/26b27e1da9e3727fcb12e3e4e86c8c19.jpg"
+      },
+      {
+        "id": 107,
+        "name": "Family Friendly",
+        "slug": "family-friendly",
+        "language": "eng",
+        "games_count": 10667,
+        "image_background": "https://media.rawg.io/media/games/25c/25c4776ab5723d5d735d8bf617ca12d9.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Replay Value",
+        "slug": "replay-value",
+        "language": "eng",
+        "games_count": 2255,
+        "image_background": "https://media.rawg.io/media/games/238/2383a172b4d50a7b44e07980eb7141ea.jpg"
+      },
+      {
+        "id": 571,
+        "name": "3D",
+        "slug": "3d",
+        "language": "eng",
+        "games_count": 93727,
+        "image_background": "https://media.rawg.io/media/games/b29/b294fdd866dcdb643e7bab370a552855.jpg"
+      },
+      {
+        "id": 165,
+        "name": "Colorful",
+        "slug": "colorful",
+        "language": "eng",
+        "games_count": 28895,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      {
+        "id": 77,
+        "name": "Realistic",
+        "slug": "realistic",
+        "language": "eng",
+        "games_count": 9129,
+        "image_background": "https://media.rawg.io/media/screenshots/ca8/ca840f2a8ebfc74aac1688367dc1f903.jpg"
+      },
+      {
+        "id": 39,
+        "name": "Building",
+        "slug": "building",
+        "language": "eng",
+        "games_count": 7524,
+        "image_background": "https://media.rawg.io/media/games/bda/bdab2603c0dc67268d0610449bc7df16.jpg"
+      },
+      {
+        "id": 40937,
+        "name": "Steam Trading Cards",
+        "slug": "steam-trading-cards-2",
+        "language": "eng",
+        "games_count": 844,
+        "image_background": "https://media.rawg.io/media/games/b2c/b2c9c6115114c8f7d461b5430e8a7d4a.jpg"
+      },
+      {
+        "id": 67,
+        "name": "Management",
+        "slug": "management",
+        "language": "eng",
+        "games_count": 9390,
+        "image_background": "https://media.rawg.io/media/games/7e4/7e4e22b76da131e9690d5757555093c2.jpg"
+      },
+      {
+        "id": 138,
+        "name": "Relaxing",
+        "slug": "relaxing",
+        "language": "eng",
+        "games_count": 21481,
+        "image_background": "https://media.rawg.io/media/games/c11/c1118fbcfd846c631ecb7646f8efc780.jpg"
+      },
+      {
+        "id": 180,
+        "name": "Base Building",
+        "slug": "base-building",
+        "language": "eng",
+        "games_count": 2978,
+        "image_background": "https://media.rawg.io/media/games/000/0002b2686a50b30762fb6040a8d9187f.jpg"
+      },
+      {
+        "id": 51,
+        "name": "Destruction",
+        "slug": "destruction",
+        "language": "eng",
+        "games_count": 3967,
+        "image_background": "https://media.rawg.io/media/games/ff2/ff2315fb895502efcbd40f1e5f37c170.jpg"
+      },
+      {
+        "id": 195,
+        "name": "Economy",
+        "slug": "economy",
+        "language": "eng",
+        "games_count": 3294,
+        "image_background": "https://media.rawg.io/media/games/1f5/1f5ddf7199f2778ff83663b93b5cb330.jpg"
+      },
+      {
+        "id": 86,
+        "name": "Education",
+        "slug": "education",
+        "language": "eng",
+        "games_count": 3766,
+        "image_background": "https://media.rawg.io/media/screenshots/a5e/a5eb5de9041397ca0f8b933c96a593b9.jpg"
+      },
+      {
+        "id": 42473,
+        "name": "Immersive Sim",
+        "slug": "immersive-sim-2",
+        "language": "eng",
+        "games_count": 5038,
+        "image_background": "https://media.rawg.io/media/games/f04/f04030abc433df09da4bb70a74bdf339.jpg"
+      },
+      {
+        "id": 94,
+        "name": "Design & Illustration",
+        "slug": "design-illustration",
+        "language": "eng",
+        "games_count": 786,
+        "image_background": "https://media.rawg.io/media/screenshots/af5/af5fc63cb3be1936a046b4b54c6a8271.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 10392,
+        "name": "PlayWay",
+        "slug": "playway",
+        "games_count": 293,
+        "image_background": "https://media.rawg.io/media/screenshots/59e/59e83c7c485f9915205dd23ced6c0b12.jpg"
+      },
+      {
+        "id": 37934,
+        "name": "Frozen District",
+        "slug": "frozen-district",
+        "games_count": 9,
+        "image_background": "https://media.rawg.io/media/screenshots/514/5148bb88d1a40cb5ae471405f4c2508a.jpg"
+      },
+      {
+        "id": 53650,
+        "name": "PlayWay S.A",
+        "slug": "playway-sa",
+        "games_count": 4,
+        "image_background": "https://media.rawg.io/media/screenshots/35d/35d4e8bac89d57fc639a41a5d7e1ffb5.jpg"
+      }
+    ],
+    "esrb_rating": null,
+    "clip": null,
+    "description_raw": "It's time to dust off your hammer - House Flipper is back in a brand-new fashion! Buy and renovate run-down houses! Or maybe you want to build new ones? Now you can! Start as a rookie Flipper and make a fortune by helping out the community of the charming town of Pinnacove."
   }
 }
