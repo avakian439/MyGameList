@@ -4,18 +4,18 @@ export interface Game{
     description?: string;
     released?: string;
     background_image?: string;
-    rating: number;
+    rating?: number;
     rating_top?: number;
     ratings_count?: number;
     metacritic?: number | null;
     playtime?: number;
-    platforms: {
+    platforms?: {
         platform: {
             id:number;
             name: string;
         };
     }[];
-    genres: {
+    genres?: {
         id:number;
         name: string;
     }[];

@@ -9866,6 +9866,490 @@
     "clip": null,
     "description_raw": "Revelations: Persona is a role-playing video game developed and published by Atlus. It is the first entry in the Persona series, itself a subseries of the Megami Tensei franchise, and the first role-playing entry in the series to be released in the west. Originally released for the PlayStation in 1996 in Japan and North America, the title was ported to Microsoft Windows in 1999. A port to the PlayStation Portable retitled Shin Megami Tensei: Persona was released in North America and Japan in 2009, and the following year in Europe. This port featured new cutscenes and a reworked English localization.\nThe story focuses on a group of high school students as they are confronted by a series of supernatural incidents. After playing a fortune-telling game, the group each gain the ability to summon Personas, the multiple selves within them. Using this power under the guidance of Philemon, a benevolent being representing humanity's subconscious, the group face off against multiple forces that threaten the world. Gameplay revolves around the characters navigating environments around their town and fighting enemies using their Personas. During the course of the game, the player can create new Personas for battle using spell cards gained in battle or by talking with enemies.\nPersona began development after the release of Shin Megami Tensei If..., with the idea of creating a subseries around the positively received high school setting of If.... Multiple staff members from previous Megami Tensei titles were involved in development, including character designer Kazuma Kaneko, and director Kouji Okada. Multiple aspects of the story, including Personas and the character Philemon, were taken from Jungian psychology, while Kaneko's character designs were based on both staff members, and celebrities and fictional characters of the time. Reception to the game has generally been positive, with most praising its approach to the genre, while its navigation and localization were criticized. Its PSP port shared most points of praise with the original, along with the improved localization, but also drew negative comments for its by-then dated mechanics and graphics."
   },
+  "58175": {
+    "id": 58175,
+    "slug": "god-of-war-2",
+    "name": "God of War (2018)",
+    "name_original": "God of War (2018)",
+    "description": "<p>It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. </p>\n<p>His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. </p>\n<p>Kratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. </p>\n<p>From the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War’s breathtakingly threatening landscape—by far the largest in the franchise. </p>\n<p>With an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre</p>",
+    "metacritic": 94,
+    "metacritic_platforms": [
+      {
+        "metascore": 94,
+        "url": "https://www.metacritic.com/game/playstation-2/god-of-war",
+        "platform": {
+          "platform": 15,
+          "name": "PlayStation 2",
+          "slug": "playstation2"
+        }
+      },
+      {
+        "metascore": 93,
+        "url": "https://www.metacritic.com/game/pc/god-of-war",
+        "platform": {
+          "platform": 4,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "metascore": 94,
+        "url": "https://www.metacritic.com/game/playstation-4/god-of-war",
+        "platform": {
+          "platform": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4"
+        }
+      }
+    ],
+    "released": "2018-04-20",
+    "tba": false,
+    "updated": "2026-01-19T10:14:10",
+    "background_image": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg",
+    "background_image_additional": "https://media.rawg.io/media/screenshots/e2e/e2e16b63691fab32fa20d99f3e6895a0.jpeg",
+    "website": "https://godofwar.playstation.com/",
+    "rating": 4.55,
+    "rating_top": 5,
+    "ratings": [
+      {
+        "id": 5,
+        "title": "exceptional",
+        "count": 3669,
+        "percent": 70.4
+      },
+      {
+        "id": 4,
+        "title": "recommended",
+        "count": 1096,
+        "percent": 21.03
+      },
+      {
+        "id": 3,
+        "title": "meh",
+        "count": 261,
+        "percent": 5.01
+      },
+      {
+        "id": 1,
+        "title": "skip",
+        "count": 186,
+        "percent": 3.57
+      }
+    ],
+    "reactions": {
+      "1": 42,
+      "2": 6,
+      "3": 21,
+      "4": 6,
+      "5": 3,
+      "6": 11,
+      "7": 9,
+      "9": 1,
+      "10": 22,
+      "11": 5,
+      "12": 6,
+      "14": 3,
+      "15": 4,
+      "16": 4,
+      "18": 1,
+      "19": 1,
+      "21": 3
+    },
+    "added": 14446,
+    "added_by_status": {
+      "yet": 728,
+      "owned": 7308,
+      "beaten": 4390,
+      "toplay": 1208,
+      "dropped": 389,
+      "playing": 423
+    },
+    "playtime": 15,
+    "screenshots_count": 11,
+    "movies_count": 0,
+    "creators_count": 13,
+    "achievements_count": 184,
+    "parent_achievements_count": 23,
+    "reddit_url": "https://www.reddit.com/r/GodofWar/",
+    "reddit_name": "",
+    "reddit_description": "",
+    "reddit_logo": "",
+    "reddit_count": 10395,
+    "twitch_count": 0,
+    "youtube_count": 1000000,
+    "reviews_text_count": 108,
+    "ratings_count": 5104,
+    "suggestions_count": 608,
+    "alternative_names": [
+      "GoW"
+    ],
+    "metacritic_url": "https://www.metacritic.com/game/playstation-4/god-of-war",
+    "parents_count": 0,
+    "additions_count": 1,
+    "game_series_count": 12,
+    "user_game": null,
+    "reviews_count": 5212,
+    "saturated_color": "0f0f0f",
+    "dominant_color": "0f0f0f",
+    "parent_platforms": [
+      {
+        "platform": {
+          "id": 1,
+          "name": "PC",
+          "slug": "pc"
+        }
+      },
+      {
+        "platform": {
+          "id": 2,
+          "name": "PlayStation",
+          "slug": "playstation"
+        }
+      }
+    ],
+    "platforms": [
+      {
+        "platform": {
+          "id": 4,
+          "name": "PC",
+          "slug": "pc",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 560172,
+          "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+        },
+        "released_at": "2018-04-20",
+        "requirements": {
+          "minimum": "Minimum:\nRequires a 64-bit processor and operating system\nOS: Windows 10 64-bit\nProcessor: Intel i5-2500k (4 core 3.3 GHz) or AMD Ryzen 3 1200 (4 core 3.1 GHz)\nMemory: 8 GB RAM\nGraphics: NVIDIA GTX 960 (4 GB) or AMD R9 290X (4 GB)\nDirectX: Version 11\nStorage: 70 GB available space\nAdditional Notes: DirectX feature level 11_1 required",
+          "recommended": "Recommended:\nRequires a 64-bit processor and operating system\nOS: Windows 10 64-bit\nProcessor: Intel i5-6600k (4 core 3.5 GHz) or AMD Ryzen 5 2400 G (4 core 3.6 GHz)\nMemory: 8 GB RAM\nGraphics: NVIDIA GTX 1060 (6 GB) or AMD RX 570 (4 GB)\nDirectX: Version 11\nStorage: 70 GB available space\nAdditional Notes: DirectX feature level 11_1 required"
+        }
+      },
+      {
+        "platform": {
+          "id": 18,
+          "name": "PlayStation 4",
+          "slug": "playstation4",
+          "image": null,
+          "year_end": null,
+          "year_start": null,
+          "games_count": 6970,
+          "image_background": "https://media.rawg.io/media/games/157/15742f2f67eacff546738e1ab5c19d20.jpg"
+        },
+        "released_at": "2018-04-20",
+        "requirements": {}
+      }
+    ],
+    "stores": [
+      {
+        "id": 971852,
+        "url": "",
+        "store": {
+          "id": 5,
+          "name": "GOG",
+          "slug": "gog",
+          "domain": "gog.com",
+          "games_count": 7131,
+          "image_background": "https://media.rawg.io/media/games/9dd/9ddabb34840ea9227556670606cf8ea3.jpg"
+        }
+      },
+      {
+        "id": 46917,
+        "url": "",
+        "store": {
+          "id": 3,
+          "name": "PlayStation Store",
+          "slug": "playstation-store",
+          "domain": "store.playstation.com",
+          "games_count": 8069,
+          "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+        }
+      },
+      {
+        "id": 677451,
+        "url": "",
+        "store": {
+          "id": 1,
+          "name": "Steam",
+          "slug": "steam",
+          "domain": "store.steampowered.com",
+          "games_count": 122974,
+          "image_background": "https://media.rawg.io/media/games/618/618c2031a07bbff6b4f611f10b6bcdbc.jpg"
+        }
+      },
+      {
+        "id": 677452,
+        "url": "",
+        "store": {
+          "id": 11,
+          "name": "Epic Games",
+          "slug": "epic-games",
+          "domain": "epicgames.com",
+          "games_count": 1432,
+          "image_background": "https://media.rawg.io/media/games/e04/e04963f3ac4c4fa83a1dc0b9231e50db.jpg"
+        }
+      }
+    ],
+    "developers": [
+      {
+        "id": 14278,
+        "name": "Santa Monica Studio",
+        "slug": "santa-monica-studio",
+        "games_count": 3,
+        "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+      }
+    ],
+    "genres": [
+      {
+        "id": 4,
+        "name": "Action",
+        "slug": "action",
+        "games_count": 191356,
+        "image_background": "https://media.rawg.io/media/games/7cf/7cfc9220b401b7a300e409e539c9afd5.jpg"
+      }
+    ],
+    "tags": [
+      {
+        "id": 31,
+        "name": "Singleplayer",
+        "slug": "singleplayer",
+        "language": "eng",
+        "games_count": 250619,
+        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+      },
+      {
+        "id": 40847,
+        "name": "Steam Achievements",
+        "slug": "steam-achievements",
+        "language": "eng",
+        "games_count": 51628,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 40836,
+        "name": "Full controller support",
+        "slug": "full-controller-support",
+        "language": "eng",
+        "games_count": 24104,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 40849,
+        "name": "Steam Cloud",
+        "slug": "steam-cloud",
+        "language": "eng",
+        "games_count": 25679,
+        "image_background": "https://media.rawg.io/media/games/7a2/7a2500ee8b2c0e1ff268bb4479463dea.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Atmospheric",
+        "slug": "atmospheric",
+        "language": "eng",
+        "games_count": 39664,
+        "image_background": "https://media.rawg.io/media/games/490/49016e06ae2103881ff6373248843069.jpg"
+      },
+      {
+        "id": 24,
+        "name": "RPG",
+        "slug": "rpg",
+        "language": "eng",
+        "games_count": 26571,
+        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+      },
+      {
+        "id": 118,
+        "name": "Story Rich",
+        "slug": "story-rich",
+        "language": "eng",
+        "games_count": 27230,
+        "image_background": "https://media.rawg.io/media/games/b8c/b8c243eaa0fbac8115e0cdccac3f91dc.jpg"
+      },
+      {
+        "id": 149,
+        "name": "Third Person",
+        "slug": "third-person",
+        "language": "eng",
+        "games_count": 14693,
+        "image_background": "https://media.rawg.io/media/games/6cd/6cd653e0aaef5ff8bbd295bf4bcb12eb.jpg"
+      },
+      {
+        "id": 64,
+        "name": "Fantasy",
+        "slug": "fantasy",
+        "language": "eng",
+        "games_count": 32918,
+        "image_background": "https://media.rawg.io/media/games/fc1/fc1307a2774506b5bd65d7e8424664a7.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Gore",
+        "slug": "gore",
+        "language": "eng",
+        "games_count": 6658,
+        "image_background": "https://media.rawg.io/media/games/8d4/8d46786ca86b1d95f3dc7e700e2dc4dd.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Exploration",
+        "slug": "exploration",
+        "language": "eng",
+        "games_count": 29199,
+        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+      },
+      {
+        "id": 34,
+        "name": "Violent",
+        "slug": "violent",
+        "language": "eng",
+        "games_count": 7844,
+        "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+      },
+      {
+        "id": 69,
+        "name": "Action-Adventure",
+        "slug": "action-adventure",
+        "language": "eng",
+        "games_count": 20986,
+        "image_background": "https://media.rawg.io/media/games/baf/baf9905270314e07e6850cffdb51df41.jpg"
+      },
+      {
+        "id": 97,
+        "name": "Action RPG",
+        "slug": "action-rpg",
+        "language": "eng",
+        "games_count": 8679,
+        "image_background": "https://media.rawg.io/media/games/f99/f9979698c43fd84c3ab69280576dd3af.jpg"
+      },
+      {
+        "id": 68,
+        "name": "Hack and Slash",
+        "slug": "hack-and-slash",
+        "language": "eng",
+        "games_count": 5338,
+        "image_background": "https://media.rawg.io/media/games/d1a/d1a2e99ade53494c6330a0ed945fe823.jpg"
+      },
+      {
+        "id": 37796,
+        "name": "exclusive",
+        "slug": "exclusive",
+        "language": "eng",
+        "games_count": 4491,
+        "image_background": "https://media.rawg.io/media/games/cd3/cd3c9c7d3e95cb1608fd6250f1b90b7a.jpg"
+      },
+      {
+        "id": 571,
+        "name": "3D",
+        "slug": "3d",
+        "language": "eng",
+        "games_count": 93727,
+        "image_background": "https://media.rawg.io/media/games/b29/b294fdd866dcdb643e7bab370a552855.jpg"
+      },
+      {
+        "id": 125,
+        "name": "Crafting",
+        "slug": "crafting",
+        "language": "eng",
+        "games_count": 5516,
+        "image_background": "https://media.rawg.io/media/games/152/152e788b7504aa2753c86dae912fb34c.jpg"
+      },
+      {
+        "id": 1465,
+        "name": "combat",
+        "slug": "combat",
+        "language": "eng",
+        "games_count": 16354,
+        "image_background": "https://media.rawg.io/media/games/737/737ea5662211d2e0bbd6f5989189e4f1.jpg"
+      },
+      {
+        "id": 37797,
+        "name": "true exclusive",
+        "slug": "true-exclusive",
+        "language": "eng",
+        "games_count": 3980,
+        "image_background": "https://media.rawg.io/media/games/363/36306deef81e7955a5d0f5c3b43fccee.jpg"
+      },
+      {
+        "id": 478,
+        "name": "3rd-Person Perspective",
+        "slug": "3rd-person-perspective",
+        "language": "eng",
+        "games_count": 87,
+        "image_background": "https://media.rawg.io/media/games/909/909974d1c7863c2027241e265fe7011f.jpg"
+      },
+      {
+        "id": 270,
+        "name": "Blood",
+        "slug": "blood",
+        "language": "eng",
+        "games_count": 2155,
+        "image_background": "https://media.rawg.io/media/games/ae4/ae4a8087739c065fb6ddda1308820ece.jpg"
+      },
+      {
+        "id": 171,
+        "name": "PvE",
+        "slug": "pve",
+        "language": "eng",
+        "games_count": 7958,
+        "image_background": "https://media.rawg.io/media/games/f76/f768aa9bd48a535f5853e79257e50488.jpg"
+      },
+      {
+        "id": 572,
+        "name": "Emotional",
+        "slug": "emotional",
+        "language": "eng",
+        "games_count": 4541,
+        "image_background": "https://media.rawg.io/media/games/07a/07a74470a2618fd71945db0619602baf.jpg"
+      },
+      {
+        "id": 580,
+        "name": "Souls-like",
+        "slug": "souls-like",
+        "language": "eng",
+        "games_count": 1866,
+        "image_background": "https://media.rawg.io/media/games/458/45838becd01e929b6be8b88d655cebfc.jpg"
+      },
+      {
+        "id": 108,
+        "name": "Mythology",
+        "slug": "mythology",
+        "language": "eng",
+        "games_count": 2517,
+        "image_background": "https://media.rawg.io/media/games/615/615e9fc0a325e0d87b84dad029b8b7b9.jpg"
+      },
+      {
+        "id": 43374,
+        "name": "Remote Play on TV",
+        "slug": "remote-play-on-tv",
+        "language": "eng",
+        "games_count": 653,
+        "image_background": "https://media.rawg.io/media/games/dd9/dd90964966f6bf9b0bd635be432fbf8a.jpg"
+      }
+    ],
+    "publishers": [
+      {
+        "id": 11687,
+        "name": "Sony Interactive Entertainment",
+        "slug": "sony-interactive-entertainment",
+        "games_count": 308,
+        "image_background": "https://media.rawg.io/media/games/9aa/9aa42d16d425fa6f179fc9dc2f763647.jpg"
+      },
+      {
+        "id": 55134,
+        "name": "PlayStation PC",
+        "slug": "playstation-pc-llc",
+        "games_count": 15,
+        "image_background": "https://media.rawg.io/media/games/de6/de66bc4c72b45c3bb906c85d0628112d.jpg"
+      }
+    ],
+    "esrb_rating": {
+      "id": 4,
+      "name": "Mature",
+      "slug": "mature"
+    },
+    "clip": null,
+    "description_raw": "It is a new beginning for Kratos. Living as a man outside the shadow of the gods, he ventures into the brutal Norse wilds with his son Atreus, fighting to fulfill a deeply personal quest. \r\n\r\nHis vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… And teach his son to do the same. This startling reimagining of God of War deconstructs the core elements that defined the series—satisfying combat; breathtaking scale; and a powerful narrative—and fuses them anew. \r\n\r\nKratos is a father again. As mentor and protector to Atreus, a son determined to earn his respect, he is forced to deal with and control the rage that has long defined him while out in a very dangerous world with his son. \r\n\r\nFrom the marble and columns of ornate Olympus to the gritty forests, mountains, and caves of Pre-Viking Norse lore, this is a distinctly new realm with its own pantheon of creatures, monsters, and gods. With an added emphasis on discovery and exploration, the world will draw players in to explore every inch of God of War’s breathtakingly threatening landscape—by far the largest in the franchise. \r\n\r\nWith an over the shoulder free camera that brings the player closer to the action than ever before, fights in God of War mirror the pantheon of Norse creatures Kratos will face: grand, gritty, and grueling. A new main weapon and new abilities retain the defining spirit of God of War while presenting a vision of violent conflict that forges new ground in the genre"
+  },
   "58616": {
     "id": 58616,
     "slug": "assassins-creed-odyssey",

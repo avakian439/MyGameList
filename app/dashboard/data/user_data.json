@@ -314,11 +314,15 @@
         "gameId": "324997",
         "status": "completed",
         "completedAt": "2026-01-19T17:01:36.310Z"
+      },
+      {
+        "gameId": "58175",
+        "status": "playing"
       }
     ],
     "stats": {
-      "totalGames": 12,
-      "playing": 2,
+      "totalGames": 13,
+      "playing": 3,
       "completed": 8,
       "wishlist": 0,
       "dropped": 2
